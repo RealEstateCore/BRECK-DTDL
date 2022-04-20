@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Emergency_Generator_Status;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Emergency Generator Status"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Status;1",
+  "@context": "dtmi:dtdl:context;2"
+}

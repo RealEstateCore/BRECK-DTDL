@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Emergency_Generator_Alarm;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Emergency Generator Alarm"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Emergency_Alarm;1",
+  "@context": "dtmi:dtdl:context;2"
+}

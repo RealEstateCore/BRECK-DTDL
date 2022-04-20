@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Max_Frequency_Command;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Max Frequency Command"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Frequency_Command;1",
+  "@context": "dtmi:dtdl:context;2"
+}

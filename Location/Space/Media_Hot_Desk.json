@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Media_Hot_Desk;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Media Hot Desk"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Space;1",
+  "@context": "dtmi:dtdl:context;2"
+}

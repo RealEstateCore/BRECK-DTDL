@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Unit_Failure_Alarm;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Unit Failure Alarm"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Failure_Alarm;1",
+  "@context": "dtmi:dtdl:context;2"
+}

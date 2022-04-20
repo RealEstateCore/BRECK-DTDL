@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Chilled_Water_Differential_Pressure_Load_Shed_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Chilled Water Differential Pressure Load Shed Setpoint"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Load_Shed_Differential_Pressure_Setpoint;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Chilled_Water_Differential_Pressure_Setpoint;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Chilled_Water_Discharge_Flow_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Chilled Water Discharge Flow Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Discharge_Water_Flow_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

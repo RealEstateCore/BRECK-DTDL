@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Hot_Water;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Supply Hot Water"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Water;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Hot_Water;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

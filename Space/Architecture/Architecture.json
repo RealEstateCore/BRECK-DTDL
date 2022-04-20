@@ -1,0 +1,84 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Architecture;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "personOccupancy",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "personCapacity",
+      "schema": "integer"
+    },
+    {
+      "@type": "Relationship",
+      "name": "ownedBy",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "operatedBy",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "intersectingElement",
+      "target": "dtmi:digitaltwins:w3id:org:rec:BuildingElement;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "documentation",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Document;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "containsSpace",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Architecture;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "containsElement",
+      "target": "dtmi:digitaltwins:w3id:org:rec:BuildingElement;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "constructedBy",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "architectedBy",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "adjacentElement",
+      "target": "dtmi:digitaltwins:w3id:org:rec:BuildingElement;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "address",
+      "target": "dtmi:digitaltwins:w3id:org:rec:PostalAddress;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "hasPoint",
+      "target": "dtmi:digitaltwins:brickschema:org:schema:Brick:Point;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "subjectOf",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Document;1"
+    }
+  ],
+  "description": {
+    "en": "A designed/landscaped (or potentially designed/landscaped) part of the physical world that has a 3D spatial extent. E.g., a building site, a building, levels within the building, rooms, etc."
+  },
+  "displayName": {
+    "en": "Architecture"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Space;1",
+  "@context": "dtmi:dtdl:context;2"
+}

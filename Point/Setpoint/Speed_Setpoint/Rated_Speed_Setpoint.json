@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Rated_Speed_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Rated Speed Setpoint"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Speed_Setpoint;1",
+  "@context": "dtmi:dtdl:context;2"
+}

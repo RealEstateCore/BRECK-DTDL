@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Computer_Room_Air_Conditioning;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Computer Room Air Conditioning"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

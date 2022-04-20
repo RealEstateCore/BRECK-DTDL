@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:PhoneBooth;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "PhoneBooth"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Office;1",
+  "@context": "dtmi:dtdl:context;2"
+}

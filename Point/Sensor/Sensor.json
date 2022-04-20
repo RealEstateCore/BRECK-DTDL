@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Point;1",
+  "@context": "dtmi:dtdl:context;2"
+}

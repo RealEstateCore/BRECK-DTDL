@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Ticketing_Booth;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Ticketing Booth"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Space;1",
+  "@context": "dtmi:dtdl:context;2"
+}

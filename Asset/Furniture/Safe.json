@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Safe;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Safe"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Furniture;1",
+  "@context": "dtmi:dtdl:context;2"
+}

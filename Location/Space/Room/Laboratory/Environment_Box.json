@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Environment_Box;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Environment Box"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Laboratory;1",
+  "@context": "dtmi:dtdl:context;2"
+}

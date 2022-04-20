@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Chilled_Water_Differential_Pressure_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Chilled Water Differential Pressure Setpoint"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Differential_Pressure_Setpoint;1",
+  "@context": "dtmi:dtdl:context;2"
+}

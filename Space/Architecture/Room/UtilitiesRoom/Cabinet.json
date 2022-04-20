@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Cabinet;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Cabinet"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:UtilitiesRoom;1",
+  "@context": "dtmi:dtdl:context;2"
+}

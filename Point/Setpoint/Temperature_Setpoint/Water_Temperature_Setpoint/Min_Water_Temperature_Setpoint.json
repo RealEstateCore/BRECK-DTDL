@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Min_Water_Temperature_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Min Water Temperature Setpoint"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Temperature_Setpoint;1",
+  "@context": "dtmi:dtdl:context;2"
+}

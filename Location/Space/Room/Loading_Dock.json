@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Loading_Dock;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Loading Dock"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Room;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Visitor_Lobby;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Visitor Lobby"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Lobby;1",
+  "@context": "dtmi:dtdl:context;2"
+}

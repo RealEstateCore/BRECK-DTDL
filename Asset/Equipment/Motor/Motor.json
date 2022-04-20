@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Motor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Motor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

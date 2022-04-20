@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Jet_Nozzle_Air_Diffuser;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Jet Nozzle Air Diffuser"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Air_Diffuser;1",
+  "@context": "dtmi:dtdl:context;2"
+}

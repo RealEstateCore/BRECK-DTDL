@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:CO;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "CO"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Gas;1",
+  "@context": "dtmi:dtdl:context;2"
+}

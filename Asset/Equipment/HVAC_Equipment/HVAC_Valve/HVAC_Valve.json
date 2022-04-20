@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Valve;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "HVAC Valve"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Valve;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Equipment;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

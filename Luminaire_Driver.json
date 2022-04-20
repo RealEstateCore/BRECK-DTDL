@@ -1,0 +1,8 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Luminaire_Driver;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Luminaire Driver"
+  },
+  "@context": "dtmi:dtdl:context;2"
+}

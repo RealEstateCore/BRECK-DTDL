@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Discharge_Chilled_Water_Temperature_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Discharge Chilled Water Temperature Setpoint"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Discharge_Water_Temperature_Setpoint;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Chilled_Water_Temperature_Setpoint;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Air_Velocity_Pressure_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Supply Air Velocity Pressure Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Velocity_Pressure_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

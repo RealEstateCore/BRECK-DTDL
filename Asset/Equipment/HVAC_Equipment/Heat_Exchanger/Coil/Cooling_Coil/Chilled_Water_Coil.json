@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Chilled_Water_Coil;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Chilled Water Coil"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Cooling_Coil;1",
+  "@context": "dtmi:dtdl:context;2"
+}

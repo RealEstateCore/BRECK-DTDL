@@ -1,0 +1,33 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Equipment;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "regulates",
+      "target": "dtmi:digitaltwins:brickschema:org:schema:Brick:Substance;1"
+    },
+    {
+      "@type": "Property",
+      "name": "operationalStageCount",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Object",
+        "dtmi:dtdl:property:fields;2": [
+          {
+            "name": "value",
+            "schema": "string"
+          },
+          {
+            "name": "value",
+            "schema": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "displayName": {
+    "en": "Equipment"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Asset;1",
+  "@context": "dtmi:dtdl:context;2"
+}

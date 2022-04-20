@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Makeup_Water_Valve;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Makeup Water Valve"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Valve;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Valve;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

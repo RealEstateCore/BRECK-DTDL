@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Domestic_Hot_Water_Discharge_Temperature_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Domestic Hot Water Discharge Temperature Setpoint"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Domestic_Hot_Water_Temperature_Setpoint;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Discharge_Water_Temperature_Setpoint;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,87 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Point;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "timeseries",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Object",
+        "dtmi:dtdl:property:fields;2": [
+          {
+            "name": "hasTimeseriesId",
+            "schema": "string"
+          },
+          {
+            "name": "storedAt",
+            "schema": "string"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Property",
+      "name": "lastKnownValue",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Object",
+        "dtmi:dtdl:property:fields;2": [
+          {
+            "name": "value",
+            "schema": "string"
+          },
+          {
+            "name": "timestamp",
+            "schema": "string"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Relationship",
+      "name": "hasExternalReference"
+    },
+    {
+      "@type": "Property",
+      "name": "hasCSVReference",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Object",
+        "dtmi:dtdl:property:fields;2": {
+          "name": "fileLocation",
+          "schema": "string"
+        }
+      }
+    },
+    {
+      "@type": "Property",
+      "name": "hasBACnetReference",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Object",
+        "dtmi:dtdl:property:fields;2": {
+          "name": "objectOf",
+          "schema": "string"
+        }
+      }
+    },
+    {
+      "@type": "Property",
+      "name": "aggregate",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Object",
+        "dtmi:dtdl:property:fields;2": [
+          {
+            "name": "aggregationInterval",
+            "schema": "string"
+          },
+          {
+            "name": "aggregationFunction",
+            "schema": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "displayName": {
+    "en": "Point"
+  },
+  "@context": "dtmi:dtdl:context;2"
+}

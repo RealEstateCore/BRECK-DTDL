@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Hot_Water_Meter;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Hot Water Meter"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Meter;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Contact_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Contact Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Makeup_Water;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Makeup Water"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Differential_Supply_Return_Water_Temperature_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Differential Supply Return Water Temperature Sensor"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Water_Temperature_Sensor;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Return_Water_Temperature_Sensor;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

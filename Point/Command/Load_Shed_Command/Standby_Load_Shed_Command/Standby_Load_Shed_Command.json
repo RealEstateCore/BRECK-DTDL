@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Standby_Load_Shed_Command;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Standby Load Shed Command"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Load_Shed_Command;1",
+  "@context": "dtmi:dtdl:context;2"
+}

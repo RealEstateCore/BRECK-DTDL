@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Common_Space;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Common Space"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Space;1",
+  "@context": "dtmi:dtdl:context;2"
+}

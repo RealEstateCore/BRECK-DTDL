@@ -1,0 +1,41 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:PostalAddress;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "region",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "postalCode",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "country",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "city",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "addressLine2",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "addressLine1",
+      "schema": "string"
+    }
+  ],
+  "displayName": {
+    "en": "Postal address"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Information;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Low_Humidity_Alarm;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Low Humidity Alarm"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Humidity_Alarm;1",
+  "@context": "dtmi:dtdl:context;2"
+}

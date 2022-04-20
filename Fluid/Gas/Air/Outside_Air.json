@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Outside_Air;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Outside Air"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Air;1",
+  "@context": "dtmi:dtdl:context;2"
+}

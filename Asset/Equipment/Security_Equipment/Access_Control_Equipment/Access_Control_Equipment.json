@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Access_Control_Equipment;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Access Control Equipment"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Security_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

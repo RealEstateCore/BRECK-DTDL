@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Air_Integral_Gain_Parameter;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Supply Air Integral Gain Parameter"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Integral_Gain_Parameter;1",
+  "@context": "dtmi:dtdl:context;2"
+}

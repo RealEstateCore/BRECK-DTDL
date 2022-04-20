@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Hot_Water_Discharge_Temperature_Load_Shed_Status;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Hot Water Discharge Temperature Load Shed Status"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Load_Shed_Status;1",
+  "@context": "dtmi:dtdl:context;2"
+}

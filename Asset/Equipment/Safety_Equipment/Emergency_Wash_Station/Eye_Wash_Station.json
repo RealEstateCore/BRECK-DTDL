@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Eye_Wash_Station;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Eye Wash Station"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Emergency_Wash_Station;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Cold_Deck;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Cold Deck"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

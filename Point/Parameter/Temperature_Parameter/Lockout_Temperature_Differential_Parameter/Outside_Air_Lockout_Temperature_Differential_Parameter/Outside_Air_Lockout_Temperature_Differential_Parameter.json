@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Outside_Air_Lockout_Temperature_Differential_Parameter;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Outside Air Lockout Temperature Differential Parameter"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Lockout_Temperature_Differential_Parameter;1",
+  "@context": "dtmi:dtdl:context;2"
+}

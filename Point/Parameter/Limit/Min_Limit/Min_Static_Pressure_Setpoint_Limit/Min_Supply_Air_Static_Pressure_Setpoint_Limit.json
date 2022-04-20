@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Min_Supply_Air_Static_Pressure_Setpoint_Limit;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Min Supply Air Static Pressure Setpoint Limit"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Min_Static_Pressure_Setpoint_Limit;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Min_Limit;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,32 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Chiller;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "coolingCapacity",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Object",
+        "dtmi:dtdl:property:fields;2": [
+          {
+            "name": "value",
+            "schema": "string"
+          },
+          {
+            "name": "value",
+            "schema": "string"
+          },
+          {
+            "name": "hasUnit",
+            "schema": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "displayName": {
+    "en": "Chiller"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Methane_Level_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Methane Level Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Air_Quality_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

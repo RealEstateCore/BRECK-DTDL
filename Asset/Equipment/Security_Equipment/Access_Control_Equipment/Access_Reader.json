@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Access_Reader;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Access Reader"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Access_Control_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

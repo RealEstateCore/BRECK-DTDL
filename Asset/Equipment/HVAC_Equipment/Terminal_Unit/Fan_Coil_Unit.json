@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Fan_Coil_Unit;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Fan Coil Unit"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Terminal_Unit;1",
+  "@context": "dtmi:dtdl:context;2"
+}

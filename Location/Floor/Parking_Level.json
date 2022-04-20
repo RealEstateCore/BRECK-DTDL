@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Parking_Level;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Parking Level"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Floor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

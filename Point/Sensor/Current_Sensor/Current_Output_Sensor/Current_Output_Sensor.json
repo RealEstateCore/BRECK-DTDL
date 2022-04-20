@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Current_Output_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Current Output Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Current_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Outside_Face_Surface_Temperature_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Outside Face Surface Temperature Setpoint"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Radiant_Panel_Temperature_Setpoint;1",
+  "@context": "dtmi:dtdl:context;2"
+}

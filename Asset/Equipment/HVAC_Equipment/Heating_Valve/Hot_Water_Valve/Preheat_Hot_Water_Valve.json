@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Preheat_Hot_Water_Valve;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Preheat Hot Water Valve"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Hot_Water_Valve;1",
+  "@context": "dtmi:dtdl:context;2"
+}

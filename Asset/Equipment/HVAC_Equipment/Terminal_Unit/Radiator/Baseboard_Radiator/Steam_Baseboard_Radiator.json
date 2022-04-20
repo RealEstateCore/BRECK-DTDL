@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Steam_Baseboard_Radiator;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Steam Baseboard Radiator"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Steam_Radiator;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Baseboard_Radiator;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

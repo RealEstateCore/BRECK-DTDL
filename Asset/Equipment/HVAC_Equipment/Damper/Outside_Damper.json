@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Outside_Damper;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Outside Damper"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Damper;1",
+  "@context": "dtmi:dtdl:context;2"
+}

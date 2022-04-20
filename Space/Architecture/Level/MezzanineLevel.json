@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:MezzanineLevel;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Mezzanine level"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Level;1",
+  "@context": "dtmi:dtdl:context;2"
+}

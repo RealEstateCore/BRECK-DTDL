@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Warmest_Zone_Air_Temperature_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Warmest Zone Air Temperature Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Zone_Air_Temperature_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

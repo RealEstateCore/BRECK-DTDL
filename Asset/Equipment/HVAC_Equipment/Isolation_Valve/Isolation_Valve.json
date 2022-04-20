@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Isolation_Valve;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Isolation Valve"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Air_Handler_Unit;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Air Handler Unit"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

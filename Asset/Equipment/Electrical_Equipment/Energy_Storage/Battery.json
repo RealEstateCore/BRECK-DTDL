@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Battery;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Battery"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Energy_Storage;1",
+  "@context": "dtmi:dtdl:context;2"
+}

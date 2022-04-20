@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:TherapyRoom;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Therapy room"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:HealthcareRoom;1",
+  "@context": "dtmi:dtdl:context;2"
+}

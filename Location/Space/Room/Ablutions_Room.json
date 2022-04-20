@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Ablutions_Room;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Ablutions Room"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Room;1",
+  "@context": "dtmi:dtdl:context;2"
+}

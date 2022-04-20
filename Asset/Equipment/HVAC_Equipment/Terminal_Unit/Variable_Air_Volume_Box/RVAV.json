@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:RVAV;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "RVAV"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Variable_Air_Volume_Box;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Current_Imbalance_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Current Imbalance Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Imbalance_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

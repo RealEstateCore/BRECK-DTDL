@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Level_Alarm;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Water Level Alarm"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Alarm;1",
+  "@context": "dtmi:dtdl:context;2"
+}

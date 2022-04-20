@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Discharge_Fan;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Discharge Fan"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Fan;1",
+  "@context": "dtmi:dtdl:context;2"
+}

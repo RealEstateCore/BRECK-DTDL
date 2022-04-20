@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Radioactivity_Concentration_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Radioactivity Concentration Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Air_Quality_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

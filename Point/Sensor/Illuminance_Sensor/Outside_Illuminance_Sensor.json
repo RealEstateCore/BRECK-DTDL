@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Outside_Illuminance_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Outside Illuminance Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Illuminance_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

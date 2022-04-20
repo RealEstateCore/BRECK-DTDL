@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Humidity_Tolerance_Parameter;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Humidity Tolerance Parameter"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Tolerance_Parameter;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Humidity_Parameter;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

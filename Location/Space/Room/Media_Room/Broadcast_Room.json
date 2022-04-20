@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Broadcast_Room;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Broadcast Room"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Media_Room;1",
+  "@context": "dtmi:dtdl:context;2"
+}

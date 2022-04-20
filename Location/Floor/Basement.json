@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Basement;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Basement"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Floor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

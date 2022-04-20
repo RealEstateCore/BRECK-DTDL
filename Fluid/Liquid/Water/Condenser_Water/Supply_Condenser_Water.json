@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Condenser_Water;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Supply Condenser Water"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Condenser_Water;1",
+  "@context": "dtmi:dtdl:context;2"
+}

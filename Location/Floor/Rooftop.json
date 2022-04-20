@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Rooftop;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Rooftop"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Floor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

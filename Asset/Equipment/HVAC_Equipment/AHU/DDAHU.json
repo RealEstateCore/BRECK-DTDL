@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:DDAHU;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "DDAHU"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:AHU;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Furniture;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Furniture"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

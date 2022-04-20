@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Embedded_Surface_System_Panel;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Embedded Surface System Panel"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Radiant_Panel;1",
+  "@context": "dtmi:dtdl:context;2"
+}

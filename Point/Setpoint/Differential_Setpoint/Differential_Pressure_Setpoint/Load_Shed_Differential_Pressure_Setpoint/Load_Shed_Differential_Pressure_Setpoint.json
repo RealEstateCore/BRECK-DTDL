@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Load_Shed_Differential_Pressure_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Load Shed Differential Pressure Setpoint"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Load_Shed_Setpoint;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Differential_Pressure_Setpoint;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

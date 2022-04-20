@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Condensate_Leak_Alarm;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Condensate Leak Alarm"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Leak_Alarm;1",
+  "@context": "dtmi:dtdl:context;2"
+}

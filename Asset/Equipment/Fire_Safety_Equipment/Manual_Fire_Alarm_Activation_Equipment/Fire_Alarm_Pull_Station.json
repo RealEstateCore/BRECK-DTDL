@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Fire_Alarm_Pull_Station;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Fire Alarm Pull Station"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Manual_Fire_Alarm_Activation_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Intercom_Equipment;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Intercom Equipment"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Security_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

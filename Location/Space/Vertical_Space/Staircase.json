@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Staircase;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Staircase"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Vertical_Space;1",
+  "@context": "dtmi:dtdl:context;2"
+}

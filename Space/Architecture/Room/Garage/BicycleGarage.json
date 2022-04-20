@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:BicycleGarage;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Bicycle garage"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Garage;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,16 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Department;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "departmentOf",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Organization;1"
+    }
+  ],
+  "displayName": {
+    "en": "Department"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Organization;1",
+  "@context": "dtmi:dtdl:context;2"
+}

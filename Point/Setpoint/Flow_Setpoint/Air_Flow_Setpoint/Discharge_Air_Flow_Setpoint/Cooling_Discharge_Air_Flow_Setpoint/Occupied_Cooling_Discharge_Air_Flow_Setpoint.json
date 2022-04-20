@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Occupied_Cooling_Discharge_Air_Flow_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Occupied Cooling Discharge Air Flow Setpoint"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Occupied_Discharge_Air_Flow_Setpoint;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Cooling_Discharge_Air_Flow_Setpoint;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

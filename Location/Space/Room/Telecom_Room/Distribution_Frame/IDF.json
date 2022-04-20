@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:IDF;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "IDF"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Distribution_Frame;1",
+  "@context": "dtmi:dtdl:context;2"
+}

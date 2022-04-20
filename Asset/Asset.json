@@ -1,0 +1,108 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Asset;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "modelNumber",
+      "schema": "string"
+    },
+    {
+      "@type": "Relationship",
+      "name": "manufacturedBy",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
+    },
+    {
+      "@type": "Property",
+      "name": "maintenanceInterval",
+      "schema": "duration"
+    },
+    {
+      "@type": "Relationship",
+      "name": "locatedIn",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Space;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "isPartOf",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Asset;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "installedBy",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
+    },
+    {
+      "@type": "Property",
+      "name": "installationDate",
+      "schema": "date"
+    },
+    {
+      "@type": "Property",
+      "name": "initialCost",
+      "schema": "string"
+    },
+    {
+      "@type": "Relationship",
+      "name": "documentation",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Document;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "commissionedBy",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
+    },
+    {
+      "@type": "Property",
+      "name": "commissionDate",
+      "schema": "date"
+    },
+    {
+      "@type": "Property",
+      "name": "assetTag",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "MACAddress",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "IPAddress",
+      "schema": "string"
+    },
+    {
+      "@type": "Relationship",
+      "name": "hasPoint",
+      "target": "dtmi:digitaltwins:brickschema:org:schema:Brick:Point;1"
+    },
+    {
+      "@type": "Property",
+      "name": "serialNumber",
+      "schema": "string"
+    },
+    {
+      "@type": "Relationship",
+      "name": "servicedBy",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
+    },
+    {
+      "@type": "Property",
+      "name": "turnoverDate",
+      "schema": "date"
+    },
+    {
+      "@type": "Property",
+      "name": "weight",
+      "schema": "string"
+    }
+  ],
+  "description": {
+    "en": "Something which is placed inside of a building, but is not an integral part of that building's structure; e.g., furniture, equipment, systems, etc."
+  },
+  "displayName": {
+    "en": "Asset"
+  },
+  "@context": "dtmi:dtdl:context;2"
+}

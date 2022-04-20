@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:MDF;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "MDF"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Distribution_Frame;1",
+  "@context": "dtmi:dtdl:context;2"
+}

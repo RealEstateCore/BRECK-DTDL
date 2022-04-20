@@ -1,0 +1,8 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Differential_Air_Temperature_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Differential Air Temperature Setpoint"
+  },
+  "@context": "dtmi:dtdl:context;2"
+}

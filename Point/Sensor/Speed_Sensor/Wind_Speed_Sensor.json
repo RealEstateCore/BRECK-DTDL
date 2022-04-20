@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Wind_Speed_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Wind Speed Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Speed_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

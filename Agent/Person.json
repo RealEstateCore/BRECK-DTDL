@@ -1,0 +1,34 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Person;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "image",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "givenName",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "gender",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "familyName",
+      "schema": "string"
+    }
+  ],
+  "description": {
+    "en": "A natural person (i.e., an individual human being)."
+  },
+  "displayName": {
+    "en": "Person"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Agent;1",
+  "@context": "dtmi:dtdl:context;2"
+}

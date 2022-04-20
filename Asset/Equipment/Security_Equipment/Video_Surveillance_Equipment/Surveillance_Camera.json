@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Surveillance_Camera;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Surveillance Camera"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Video_Surveillance_Equipment;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Camera;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

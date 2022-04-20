@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Acceleration_Time_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Acceleration Time Setpoint"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Time_Setpoint;1",
+  "@context": "dtmi:dtdl:context;2"
+}

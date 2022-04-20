@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Room;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Room"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Space;1",
+  "@context": "dtmi:dtdl:context;2"
+}

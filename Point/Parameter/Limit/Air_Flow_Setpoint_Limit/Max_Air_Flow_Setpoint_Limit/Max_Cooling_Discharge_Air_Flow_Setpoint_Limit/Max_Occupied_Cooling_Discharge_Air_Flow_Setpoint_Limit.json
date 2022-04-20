@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Max_Occupied_Cooling_Discharge_Air_Flow_Setpoint_Limit;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Max Occupied Cooling Discharge Air Flow Setpoint Limit"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Max_Cooling_Discharge_Air_Flow_Setpoint_Limit;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,21 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Lighting_Equipment;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "hasPart",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "feeds",
+      "schema": "string"
+    }
+  ],
+  "displayName": {
+    "en": "Lighting Equipment"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

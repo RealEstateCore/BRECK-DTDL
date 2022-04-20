@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Discharge_Air_Duct_Pressure_Status;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Discharge Air Duct Pressure Status"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Pressure_Status;1",
+  "@context": "dtmi:dtdl:context;2"
+}

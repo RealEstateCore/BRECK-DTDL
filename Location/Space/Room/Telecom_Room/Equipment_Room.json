@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Equipment_Room;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Equipment Room"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Telecom_Room;1",
+  "@context": "dtmi:dtdl:context;2"
+}

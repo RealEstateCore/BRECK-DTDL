@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Motor_Direction_Status;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Motor Direction Status"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Direction_Status;1",
+  "@context": "dtmi:dtdl:context;2"
+}

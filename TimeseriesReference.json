@@ -1,0 +1,17 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:TimeseriesReference;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "storedAt",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "hasTimeseriesId",
+      "schema": "string"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

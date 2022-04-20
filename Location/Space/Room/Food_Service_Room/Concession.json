@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Concession;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Concession"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Food_Service_Room;1",
+  "@context": "dtmi:dtdl:context;2"
+}

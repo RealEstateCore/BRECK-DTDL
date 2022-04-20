@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:PVT_Panel;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "PVT Panel"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Solar_Thermal_Collector;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:PV_Panel;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

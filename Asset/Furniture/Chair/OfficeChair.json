@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:OfficeChair;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Office chair"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Chair;1",
+  "@context": "dtmi:dtdl:context;2"
+}

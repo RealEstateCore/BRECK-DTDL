@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Disable_Status;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Disable Status"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Status;1",
+  "@context": "dtmi:dtdl:context;2"
+}

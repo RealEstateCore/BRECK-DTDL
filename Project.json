@@ -1,0 +1,17 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:extension:ifc:Project;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "fileLocation",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "projectID",
+      "schema": "string"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:FoldingChair;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Folding chair"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Chair;1",
+  "@context": "dtmi:dtdl:context;2"
+}

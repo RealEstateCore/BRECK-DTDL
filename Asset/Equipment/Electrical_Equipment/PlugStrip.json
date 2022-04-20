@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:PlugStrip;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "PlugStrip"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Electrical_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

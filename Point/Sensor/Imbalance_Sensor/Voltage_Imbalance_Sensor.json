@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Voltage_Imbalance_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Voltage Imbalance Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Imbalance_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

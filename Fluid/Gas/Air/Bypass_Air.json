@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Bypass_Air;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Bypass Air"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Air;1",
+  "@context": "dtmi:dtdl:context;2"
+}

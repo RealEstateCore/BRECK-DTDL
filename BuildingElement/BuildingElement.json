@@ -1,0 +1,11 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:BuildingElement;1",
+  "@type": "Interface",
+  "description": {
+    "en": "A part that constitutes a piece of a building's structural makeup. E.g., Facade, Wall, Slab, RoofInner, etc."
+  },
+  "displayName": {
+    "en": "Building element"
+  },
+  "@context": "dtmi:dtdl:context;2"
+}

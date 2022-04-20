@@ -1,0 +1,15 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Document;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "url"
+    }
+  ],
+  "displayName": {
+    "en": "Document"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Information;1",
+  "@context": "dtmi:dtdl:context;2"
+}

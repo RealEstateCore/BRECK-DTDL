@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Solar_Thermal_Collector;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Solar Thermal Collector"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

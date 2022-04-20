@@ -1,0 +1,8 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Differential_Temperature_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Water Differential Temperature Setpoint"
+  },
+  "@context": "dtmi:dtdl:context;2"
+}

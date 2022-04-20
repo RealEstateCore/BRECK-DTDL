@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Cold_Box;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Cold Box"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Laboratory;1",
+  "@context": "dtmi:dtdl:context;2"
+}

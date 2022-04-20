@@ -1,0 +1,8 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Information;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Information"
+  },
+  "@context": "dtmi:dtdl:context;2"
+}

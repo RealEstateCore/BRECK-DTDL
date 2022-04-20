@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Chilled_Water_Differential_Pressure_Load_Shed_Status;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Chilled Water Differential Pressure Load Shed Status"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Differential_Pressure_Load_Shed_Status;1",
+  "@context": "dtmi:dtdl:context;2"
+}

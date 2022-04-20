@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Temporary_Occupancy_Status;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Temporary Occupancy Status"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Occupancy_Status;1",
+  "@context": "dtmi:dtdl:context;2"
+}

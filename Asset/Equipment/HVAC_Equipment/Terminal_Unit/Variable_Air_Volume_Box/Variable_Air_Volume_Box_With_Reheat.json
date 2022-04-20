@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Variable_Air_Volume_Box_With_Reheat;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Variable Air Volume Box With Reheat"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Variable_Air_Volume_Box;1",
+  "@context": "dtmi:dtdl:context;2"
+}

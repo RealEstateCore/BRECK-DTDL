@@ -1,0 +1,23 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Space;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "intersectingSpace",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Space;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "adjacentSpace",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Space;1"
+    }
+  ],
+  "description": {
+    "en": "A contiguous part of the physical world that contains or can contain sub-spaces. E.g., a Region can contain many Sites, which in turn can contain many Buildings."
+  },
+  "displayName": {
+    "en": "Space"
+  },
+  "@context": "dtmi:dtdl:context;2"
+}

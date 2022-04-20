@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Electric_Boiler;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Electric Boiler"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Boiler;1",
+  "@context": "dtmi:dtdl:context;2"
+}

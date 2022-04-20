@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Min_Occupied_Cooling_Supply_Air_Flow_Setpoint_Limit;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Min Occupied Cooling Supply Air Flow Setpoint Limit"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Min_Cooling_Supply_Air_Flow_Setpoint_Limit;1",
+  "@context": "dtmi:dtdl:context;2"
+}

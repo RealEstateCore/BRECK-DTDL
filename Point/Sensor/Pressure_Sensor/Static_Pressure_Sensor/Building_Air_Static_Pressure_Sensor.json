@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Building_Air_Static_Pressure_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Building Air Static Pressure Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Static_Pressure_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,53 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:PV_Panel;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "ratedModuleConversionEfficiency",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Object",
+        "dtmi:dtdl:property:fields;2": [
+          {
+            "name": "value",
+            "schema": "string"
+          },
+          {
+            "name": "value",
+            "schema": "string"
+          },
+          {
+            "name": "hasUnit",
+            "schema": "string"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Property",
+      "name": "measuredModuleConversionEfficiency",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Object",
+        "dtmi:dtdl:property:fields;2": [
+          {
+            "name": "value",
+            "schema": "string"
+          },
+          {
+            "name": "value",
+            "schema": "string"
+          },
+          {
+            "name": "hasUnit",
+            "schema": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "displayName": {
+    "en": "PV Panel"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

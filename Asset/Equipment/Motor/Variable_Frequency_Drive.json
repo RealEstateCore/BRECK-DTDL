@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Variable_Frequency_Drive;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Variable Frequency Drive"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Motor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

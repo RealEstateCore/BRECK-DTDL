@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Heat_Exchanger_System_Enable_Status;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Heat Exchanger System Enable Status"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:System_Status;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Enable_Status;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Discharge_Water_Temperature_Integral_Time_Parameter;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Discharge Water Temperature Integral Time Parameter"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Temperature_Parameter;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Integral_Time_Parameter;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

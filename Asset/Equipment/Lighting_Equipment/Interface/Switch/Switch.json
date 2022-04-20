@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Switch;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Switch"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Interface;1",
+  "@context": "dtmi:dtdl:context;2"
+}

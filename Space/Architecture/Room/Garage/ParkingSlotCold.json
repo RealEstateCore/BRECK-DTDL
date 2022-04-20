@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:ParkingSlotCold;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Parking slot (cold)"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Garage;1",
+  "@context": "dtmi:dtdl:context;2"
+}

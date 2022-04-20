@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Automatic_Tint_Window;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Automatic Tint Window"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Shading_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

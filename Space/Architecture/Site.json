@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Site;1",
+  "@type": "Interface",
+  "description": {
+    "en": "A piece of land upon which zero or more buildings may be situated."
+  },
+  "displayName": {
+    "en": "Site"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Architecture;1",
+  "@context": "dtmi:dtdl:context;2"
+}

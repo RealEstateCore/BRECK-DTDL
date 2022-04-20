@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Majlis;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Majlis"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Lounge;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Sauna;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Sauna"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:PersonalHygiene;1",
+  "@context": "dtmi:dtdl:context;2"
+}

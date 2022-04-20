@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Discharge_Air_Temperature_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Discharge Air Temperature Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Air_Temperature_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

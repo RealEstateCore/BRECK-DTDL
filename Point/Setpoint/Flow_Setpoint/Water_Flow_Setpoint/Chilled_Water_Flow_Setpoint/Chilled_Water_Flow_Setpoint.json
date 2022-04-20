@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Chilled_Water_Flow_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Chilled Water Flow Setpoint"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Flow_Setpoint;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Electric_Power_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Electric Power Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Power_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

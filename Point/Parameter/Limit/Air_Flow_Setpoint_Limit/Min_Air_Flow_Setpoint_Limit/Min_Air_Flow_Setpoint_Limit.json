@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Min_Air_Flow_Setpoint_Limit;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Min Air Flow Setpoint Limit"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Min_Limit;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Air_Flow_Setpoint_Limit;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

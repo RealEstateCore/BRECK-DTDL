@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Information_Area;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Information Area"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Outdoor_Area;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Hazardous_Materials_Storage;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Hazardous Materials Storage"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Storage_Room;1",
+  "@context": "dtmi:dtdl:context;2"
+}

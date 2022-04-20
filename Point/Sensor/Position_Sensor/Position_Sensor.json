@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Position_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Position Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

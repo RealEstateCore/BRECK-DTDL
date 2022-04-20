@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Exhaust_Air_Humidity_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Exhaust Air Humidity Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Relative_Humidity_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Roof;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Roof"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:BuildingElement;1",
+  "@context": "dtmi:dtdl:context;2"
+}

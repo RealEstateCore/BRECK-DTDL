@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Pump_VFD;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Pump VFD"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:VFD;1",
+  "@context": "dtmi:dtdl:context;2"
+}

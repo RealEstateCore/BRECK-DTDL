@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Differential_Pressure_Step_Parameter;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Differential Pressure Step Parameter"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Step_Parameter;1",
+  "@context": "dtmi:dtdl:context;2"
+}

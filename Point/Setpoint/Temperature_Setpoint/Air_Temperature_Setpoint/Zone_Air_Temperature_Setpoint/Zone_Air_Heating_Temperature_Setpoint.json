@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Zone_Air_Heating_Temperature_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Zone Air Heating Temperature Setpoint"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Zone_Air_Temperature_Setpoint;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Heating_Temperature_Setpoint;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

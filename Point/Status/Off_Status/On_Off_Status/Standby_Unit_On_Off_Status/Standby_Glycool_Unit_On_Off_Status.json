@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Standby_Glycool_Unit_On_Off_Status;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Standby Glycool Unit On Off Status"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Standby_Unit_On_Off_Status;1",
+  "@context": "dtmi:dtdl:context;2"
+}

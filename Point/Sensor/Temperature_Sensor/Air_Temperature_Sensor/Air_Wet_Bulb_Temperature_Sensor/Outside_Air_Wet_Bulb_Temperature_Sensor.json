@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Outside_Air_Wet_Bulb_Temperature_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Outside Air Wet Bulb Temperature Sensor"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Outside_Air_Temperature_Sensor;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Air_Wet_Bulb_Temperature_Sensor;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

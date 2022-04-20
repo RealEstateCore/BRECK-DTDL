@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Transformer;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Transformer"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Electrical_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Building_Meter;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Building Meter"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Meter;1",
+  "@context": "dtmi:dtdl:context;2"
+}

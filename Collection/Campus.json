@@ -1,0 +1,19 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Campus;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "includes",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Architecture;1"
+    }
+  ],
+  "description": {
+    "en": "A campus represents a collection of location entities. The constituent locations may have differing legal ownership and utilization purposes, but they are generally perceived as a coherent unit or sub-region within a city or other region. E.g., a university campus, a hospital campus, a corporate campus, etc."
+  },
+  "displayName": {
+    "en": "Campus"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Collection;1",
+  "@context": "dtmi:dtdl:context;2"
+}

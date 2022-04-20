@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Return_Air_Filter;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Return Air Filter"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Filter;1",
+  "@context": "dtmi:dtdl:context;2"
+}

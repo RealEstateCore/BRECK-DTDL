@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Discharge_Air_Humidity_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Discharge Air Humidity Setpoint"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Humidity_Setpoint;1",
+  "@context": "dtmi:dtdl:context;2"
+}

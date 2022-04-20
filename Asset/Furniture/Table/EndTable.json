@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:EndTable;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "End table"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Table;1",
+  "@context": "dtmi:dtdl:context;2"
+}

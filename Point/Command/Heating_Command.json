@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Heating_Command;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Heating Command"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Command;1",
+  "@context": "dtmi:dtdl:context;2"
+}

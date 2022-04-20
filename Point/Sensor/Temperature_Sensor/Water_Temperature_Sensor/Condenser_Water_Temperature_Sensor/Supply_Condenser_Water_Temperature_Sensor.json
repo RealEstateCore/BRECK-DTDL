@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Condenser_Water_Temperature_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Supply Condenser Water Temperature Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Condenser_Water_Temperature_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

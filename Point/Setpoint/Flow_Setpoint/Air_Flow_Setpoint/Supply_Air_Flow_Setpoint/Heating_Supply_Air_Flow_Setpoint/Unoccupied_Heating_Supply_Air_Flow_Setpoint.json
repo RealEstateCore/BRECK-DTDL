@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Unoccupied_Heating_Supply_Air_Flow_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Unoccupied Heating Supply Air Flow Setpoint"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Unoccupied_Supply_Air_Flow_Setpoint;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Heating_Supply_Air_Flow_Setpoint;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

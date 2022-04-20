@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:DC_Bus_Voltage_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "DC Bus Voltage Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Voltage_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

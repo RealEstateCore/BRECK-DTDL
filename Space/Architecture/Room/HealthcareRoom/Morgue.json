@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Morgue;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Morgue"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:HealthcareRoom;1",
+  "@context": "dtmi:dtdl:context;2"
+}

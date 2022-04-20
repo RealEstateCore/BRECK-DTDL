@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Schedule_Temperature_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Schedule Temperature Setpoint"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Temperature_Setpoint;1",
+  "@context": "dtmi:dtdl:context;2"
+}

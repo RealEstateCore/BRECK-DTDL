@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Stand;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Stand"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Furniture;1",
+  "@context": "dtmi:dtdl:context;2"
+}

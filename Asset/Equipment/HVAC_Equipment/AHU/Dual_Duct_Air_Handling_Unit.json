@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Dual_Duct_Air_Handling_Unit;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Dual Duct Air Handling Unit"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:AHU;1",
+  "@context": "dtmi:dtdl:context;2"
+}

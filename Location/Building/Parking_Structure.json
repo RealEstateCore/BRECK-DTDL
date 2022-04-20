@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Parking_Structure;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Parking Structure"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Building;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Alarm_Delay_Parameter;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Alarm Delay Parameter"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Delay_Parameter;1",
+  "@context": "dtmi:dtdl:context;2"
+}

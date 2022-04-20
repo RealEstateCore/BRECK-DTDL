@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:PrinterCart;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Printer cart"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Cart;1",
+  "@context": "dtmi:dtdl:context;2"
+}

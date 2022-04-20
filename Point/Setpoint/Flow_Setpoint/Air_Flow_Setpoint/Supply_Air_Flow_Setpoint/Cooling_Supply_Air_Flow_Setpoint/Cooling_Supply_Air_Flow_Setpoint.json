@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Cooling_Supply_Air_Flow_Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Cooling Supply Air Flow Setpoint"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Air_Flow_Setpoint;1",
+  "@context": "dtmi:dtdl:context;2"
+}

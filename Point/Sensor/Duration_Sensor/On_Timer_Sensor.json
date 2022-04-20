@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:On_Timer_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "On Timer Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Duration_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

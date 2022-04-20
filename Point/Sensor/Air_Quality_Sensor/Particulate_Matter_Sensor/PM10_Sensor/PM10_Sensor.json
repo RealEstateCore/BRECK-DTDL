@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:PM10_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "PM10 Sensor"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Particulate_Matter_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

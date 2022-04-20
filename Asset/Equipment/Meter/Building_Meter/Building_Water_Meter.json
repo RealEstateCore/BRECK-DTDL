@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Building_Water_Meter;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Building Water Meter"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Meter;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Building_Meter;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

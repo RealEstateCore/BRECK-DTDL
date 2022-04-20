@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Building_Gas_Meter;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Building Gas Meter"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Gas_Meter;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Building_Meter;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

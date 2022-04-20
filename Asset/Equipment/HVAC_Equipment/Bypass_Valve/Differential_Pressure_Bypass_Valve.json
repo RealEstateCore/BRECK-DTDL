@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Differential_Pressure_Bypass_Valve;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Differential Pressure Bypass Valve"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Bypass_Valve;1",
+  "@context": "dtmi:dtdl:context;2"
+}

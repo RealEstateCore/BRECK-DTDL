@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Breaker_Panel;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Breaker Panel"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Electrical_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

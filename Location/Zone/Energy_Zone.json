@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Energy_Zone;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Energy Zone"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Zone;1",
+  "@context": "dtmi:dtdl:context;2"
+}

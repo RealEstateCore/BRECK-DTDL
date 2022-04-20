@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:w3id:org:rec:Bedroom;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Bedroom"
+  },
+  "extends": "dtmi:digitaltwins:w3id:org:rec:Room;1",
+  "@context": "dtmi:dtdl:context;2"
+}

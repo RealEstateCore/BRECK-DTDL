@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Thermostatic_Mixing_Valve;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Thermostatic Mixing Valve"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Valve;1",
+  "@context": "dtmi:dtdl:context;2"
+}

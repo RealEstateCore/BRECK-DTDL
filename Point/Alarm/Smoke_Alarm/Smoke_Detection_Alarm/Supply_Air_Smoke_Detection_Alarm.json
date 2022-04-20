@@ -1,0 +1,12 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Air_Smoke_Detection_Alarm;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Supply Air Smoke Detection Alarm"
+  },
+  "extends": [
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Smoke_Detection_Alarm;1",
+    "dtmi:digitaltwins:brickschema:org:schema:Brick:Air_Alarm;1"
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

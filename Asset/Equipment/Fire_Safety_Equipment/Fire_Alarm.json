@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Fire_Alarm;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Fire Alarm"
+  },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Fire_Safety_Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}
