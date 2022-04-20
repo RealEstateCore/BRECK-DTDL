@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Zone;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "HVAC Zone"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Zone;1",
-  "@context": "dtmi:dtdl:context;2"
-}

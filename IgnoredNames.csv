@@ -1,2 +1,3 @@
 https://brickschema.org/schema/BrickShape#;We don't want to include the non-class Brick shapes.
 https://brickschema.org/schema/Brick#Collection;Overlaps with REC Collection.
+https://brickschema.org/schema/Brick#Location;Deprecated in favor of REC Space.

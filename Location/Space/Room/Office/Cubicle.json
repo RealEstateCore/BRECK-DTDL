@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Cubicle;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Cubicle"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Office;1",
-  "@context": "dtmi:dtdl:context;2"
-}

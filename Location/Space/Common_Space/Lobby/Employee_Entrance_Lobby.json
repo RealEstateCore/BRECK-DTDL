@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Employee_Entrance_Lobby;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Employee Entrance Lobby"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Lobby;1",
-  "@context": "dtmi:dtdl:context;2"
-}

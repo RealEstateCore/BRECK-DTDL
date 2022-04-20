@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:First_Aid_Room;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "First Aid Room"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Medical_Room;1",
-  "@context": "dtmi:dtdl:context;2"
-}

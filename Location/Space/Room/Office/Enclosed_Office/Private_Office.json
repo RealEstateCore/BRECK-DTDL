@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Private_Office;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Private Office"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Enclosed_Office;1",
-  "@context": "dtmi:dtdl:context;2"
-}

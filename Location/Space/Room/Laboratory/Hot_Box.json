@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Hot_Box;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Hot Box"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Laboratory;1",
-  "@context": "dtmi:dtdl:context;2"
-}

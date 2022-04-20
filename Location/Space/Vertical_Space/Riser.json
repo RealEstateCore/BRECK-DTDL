@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Riser;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Riser"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Vertical_Space;1",
-  "@context": "dtmi:dtdl:context;2"
-}

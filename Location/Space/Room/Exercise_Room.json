@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Exercise_Room;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Exercise Room"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Room;1",
-  "@context": "dtmi:dtdl:context;2"
-}

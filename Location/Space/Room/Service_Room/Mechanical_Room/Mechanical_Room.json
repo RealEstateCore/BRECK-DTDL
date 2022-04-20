@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Mechanical_Room;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Mechanical Room"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Service_Room;1",
-  "@context": "dtmi:dtdl:context;2"
-}

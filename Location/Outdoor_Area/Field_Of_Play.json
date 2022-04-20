@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Field_Of_Play;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Field Of Play"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Outdoor_Area;1",
-  "@context": "dtmi:dtdl:context;2"
-}

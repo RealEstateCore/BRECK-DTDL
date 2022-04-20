@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Bench_Space;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Bench Space"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Outdoor_Area;1",
-  "@context": "dtmi:dtdl:context;2"
-}

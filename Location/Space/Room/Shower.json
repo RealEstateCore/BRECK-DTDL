@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Shower;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Shower"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Room;1",
-  "@context": "dtmi:dtdl:context;2"
-}

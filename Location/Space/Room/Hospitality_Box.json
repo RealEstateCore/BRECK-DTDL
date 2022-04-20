@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Hospitality_Box;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Hospitality Box"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Room;1",
-  "@context": "dtmi:dtdl:context;2"
-}

@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Media_Production_Room;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Media Production Room"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Media_Room;1",
-  "@context": "dtmi:dtdl:context;2"
-}

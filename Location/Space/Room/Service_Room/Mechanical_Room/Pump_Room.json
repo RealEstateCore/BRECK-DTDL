@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Pump_Room;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Pump Room"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Mechanical_Room;1",
-  "@context": "dtmi:dtdl:context;2"
-}

@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Freezer;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Freezer"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Laboratory;1",
-  "@context": "dtmi:dtdl:context;2"
-}

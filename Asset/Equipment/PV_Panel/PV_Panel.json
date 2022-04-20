@@ -9,15 +9,15 @@
         "@type": "Object",
         "dtmi:dtdl:property:fields;2": [
           {
-            "name": "value",
-            "schema": "string"
-          },
-          {
-            "name": "value",
-            "schema": "string"
-          },
-          {
             "name": "hasUnit",
+            "schema": "string"
+          },
+          {
+            "name": "value",
+            "schema": "string"
+          },
+          {
+            "name": "value",
             "schema": "string"
           }
         ]

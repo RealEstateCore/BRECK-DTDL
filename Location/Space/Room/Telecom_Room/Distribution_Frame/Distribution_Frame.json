@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Distribution_Frame;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Distribution Frame"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Telecom_Room;1",
-  "@context": "dtmi:dtdl:context;2"
-}

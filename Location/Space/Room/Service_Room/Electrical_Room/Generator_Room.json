@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Generator_Room;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Generator Room"
-  },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Electrical_Room;1",
-  "@context": "dtmi:dtdl:context;2"
-}
