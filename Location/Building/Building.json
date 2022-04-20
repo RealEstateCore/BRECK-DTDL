@@ -4,6 +4,11 @@
   "contents": [
     {
       "@type": "Property",
+      "name": "hasPart",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
       "name": "buildingPrimaryFunction",
       "dtmi:dtdl:property:schema;2": {
         "@type": "Object",
@@ -18,11 +23,6 @@
           }
         ]
       }
-    },
-    {
-      "@type": "Property",
-      "name": "hasPart",
-      "schema": "string"
     },
     {
       "@type": "Property",
