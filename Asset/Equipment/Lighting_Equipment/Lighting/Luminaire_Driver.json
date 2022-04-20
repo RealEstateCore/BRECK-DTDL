@@ -4,5 +4,6 @@
   "displayName": {
     "en": "Luminaire Driver"
   },
+  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Lighting;1",
   "@context": "dtmi:dtdl:context;2"
 }
