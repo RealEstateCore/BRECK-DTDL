@@ -3,16 +3,6 @@
   "@type": "Interface",
   "contents": [
     {
-      "@type": "Property",
-      "name": "personOccupancy",
-      "schema": "integer"
-    },
-    {
-      "@type": "Property",
-      "name": "personCapacity",
-      "schema": "integer"
-    },
-    {
       "@type": "Relationship",
       "name": "ownedBy",
       "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
@@ -66,6 +56,16 @@
       "@type": "Relationship",
       "name": "hasPoint",
       "target": "dtmi:digitaltwins:brickschema:org:schema:Brick:Point;1"
+    },
+    {
+      "@type": "Property",
+      "name": "personCapacity",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "personOccupancy",
+      "schema": "integer"
     },
     {
       "@type": "Relationship",

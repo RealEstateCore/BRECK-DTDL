@@ -10,19 +10,7 @@
     {
       "@type": "Property",
       "name": "operationalStageCount",
-      "dtmi:dtdl:property:schema;2": {
-        "@type": "Object",
-        "dtmi:dtdl:property:fields;2": [
-          {
-            "name": "value",
-            "schema": "string"
-          },
-          {
-            "name": "value",
-            "schema": "string"
-          }
-        ]
-      }
+      "schema": "string"
     }
   ],
   "displayName": {

@@ -4,6 +4,23 @@
   "contents": [
     {
       "@type": "Property",
+      "name": "measuredModuleConversionEfficiency",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Object",
+        "dtmi:dtdl:property:fields;2": [
+          {
+            "name": "value",
+            "schema": "string"
+          },
+          {
+            "name": "hasUnit",
+            "schema": "string"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Property",
       "name": "ratedModuleConversionEfficiency",
       "dtmi:dtdl:property:schema;2": {
         "@type": "Object",
@@ -14,31 +31,6 @@
           },
           {
             "name": "value",
-            "schema": "string"
-          },
-          {
-            "name": "value",
-            "schema": "string"
-          }
-        ]
-      }
-    },
-    {
-      "@type": "Property",
-      "name": "measuredModuleConversionEfficiency",
-      "dtmi:dtdl:property:schema;2": {
-        "@type": "Object",
-        "dtmi:dtdl:property:fields;2": [
-          {
-            "name": "value",
-            "schema": "string"
-          },
-          {
-            "name": "value",
-            "schema": "string"
-          },
-          {
-            "name": "hasUnit",
             "schema": "string"
           }
         ]

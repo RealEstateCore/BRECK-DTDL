@@ -3,30 +3,35 @@
   "@type": "Interface",
   "contents": [
     {
+      "@type": "Property",
+      "name": "lastKnownValue",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Object",
+        "dtmi:dtdl:property:fields;2": [
+          {
+            "name": "timestamp",
+            "schema": "dateTime"
+          },
+          {
+            "name": "value",
+            "schema": "string"
+          }
+        ]
+      }
+    },
+    {
       "@type": "Relationship",
       "name": "hasExternalReference"
     },
     {
       "@type": "Property",
       "name": "hasCSVReference",
-      "dtmi:dtdl:property:schema;2": {
-        "@type": "Object",
-        "dtmi:dtdl:property:fields;2": {
-          "name": "fileLocation",
-          "schema": "string"
-        }
-      }
+      "schema": "string"
     },
     {
       "@type": "Property",
       "name": "hasBACnetReference",
-      "dtmi:dtdl:property:schema;2": {
-        "@type": "Object",
-        "dtmi:dtdl:property:fields;2": {
-          "name": "objectOf",
-          "schema": "string"
-        }
-      }
+      "schema": "string"
     },
     {
       "@type": "Property",
@@ -40,23 +45,6 @@
           },
           {
             "name": "aggregationFunction",
-            "schema": "string"
-          }
-        ]
-      }
-    },
-    {
-      "@type": "Property",
-      "name": "lastKnownValue",
-      "dtmi:dtdl:property:schema;2": {
-        "@type": "Object",
-        "dtmi:dtdl:property:fields;2": [
-          {
-            "name": "timestamp",
-            "schema": "string"
-          },
-          {
-            "name": "value",
             "schema": "string"
           }
         ]
