@@ -4,6 +4,30 @@
   "contents": [
     {
       "@type": "Property",
+      "name": "ratedModuleConversionEfficiency",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Object",
+        "dtmi:dtdl:property:fields;2": [
+          {
+            "name": "hasUnit",
+            "dtmi:dtdl:property:schema;2": {
+              "@type": "Enum",
+              "dtmi:dtdl:property:enumValues;2": {
+                "enumValue": "PERCENT",
+                "name": "PERCENT"
+              },
+              "valueSchema": "string"
+            }
+          },
+          {
+            "name": "value",
+            "schema": "string"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Property",
       "name": "measuredModuleConversionEfficiency",
       "dtmi:dtdl:property:schema;2": {
         "@type": "Object",
@@ -14,24 +38,14 @@
           },
           {
             "name": "hasUnit",
-            "schema": "string"
-          }
-        ]
-      }
-    },
-    {
-      "@type": "Property",
-      "name": "ratedModuleConversionEfficiency",
-      "dtmi:dtdl:property:schema;2": {
-        "@type": "Object",
-        "dtmi:dtdl:property:fields;2": [
-          {
-            "name": "hasUnit",
-            "schema": "string"
-          },
-          {
-            "name": "value",
-            "schema": "string"
+            "dtmi:dtdl:property:schema;2": {
+              "@type": "Enum",
+              "dtmi:dtdl:property:enumValues;2": {
+                "enumValue": "PERCENT",
+                "name": "PERCENT"
+              },
+              "valueSchema": "string"
+            }
           }
         ]
       }

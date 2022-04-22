@@ -3,6 +3,16 @@
   "@type": "Interface",
   "contents": [
     {
+      "@type": "Relationship",
+      "name": "servicedBy",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
+    },
+    {
+      "@type": "Property",
+      "name": "serialNumber",
+      "schema": "string"
+    },
+    {
       "@type": "Property",
       "name": "modelNumber",
       "schema": "string"
@@ -76,16 +86,6 @@
       "@type": "Relationship",
       "name": "hasPoint",
       "target": "dtmi:digitaltwins:brickschema:org:schema:Brick:Point;1"
-    },
-    {
-      "@type": "Property",
-      "name": "serialNumber",
-      "schema": "string"
-    },
-    {
-      "@type": "Relationship",
-      "name": "servicedBy",
-      "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
     },
     {
       "@type": "Property",

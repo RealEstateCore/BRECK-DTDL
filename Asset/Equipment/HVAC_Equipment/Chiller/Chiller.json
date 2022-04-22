@@ -10,7 +10,28 @@
         "dtmi:dtdl:property:fields;2": [
           {
             "name": "hasUnit",
-            "schema": "string"
+            "dtmi:dtdl:property:schema;2": {
+              "@type": "Enum",
+              "dtmi:dtdl:property:enumValues;2": [
+                {
+                  "enumValue": "TON_FG",
+                  "name": "TON_FG"
+                },
+                {
+                  "enumValue": "BTU_IT-PER-HR",
+                  "name": "BTU_IT-PER-HR"
+                },
+                {
+                  "enumValue": "BTU_TH-PER-HR",
+                  "name": "BTU_TH-PER-HR"
+                },
+                {
+                  "enumValue": "W",
+                  "name": "W"
+                }
+              ],
+              "valueSchema": "string"
+            }
           },
           {
             "name": "value",
