@@ -4,56 +4,81 @@
   "contents": [
     {
       "@type": "Relationship",
-      "name": "isPartOf",
-      "target": "dtmi:digitaltwins:w3id:org:rec:Asset;1"
-    },
-    {
-      "@type": "Relationship",
+      "displayName": {
+        "en": "installed by"
+      },
       "name": "installedBy",
       "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "installation date"
+      },
       "name": "installationDate",
       "schema": "date"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "initial cost"
+      },
       "name": "initialCost",
       "schema": "string"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "documentation"
+      },
       "name": "documentation",
       "target": "dtmi:digitaltwins:w3id:org:rec:Document;1"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "commissioned by"
+      },
       "name": "commissionedBy",
       "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "commission date"
+      },
       "name": "commissionDate",
       "schema": "date"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "asset tag"
+      },
       "name": "assetTag",
       "schema": "string"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "MAC address"
+      },
       "name": "MACAddress",
       "schema": "string"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "IP address"
+      },
       "name": "IPAddress",
       "schema": "string"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "has point"
+      },
       "name": "hasPoint",
       "target": "dtmi:digitaltwins:brickschema:org:schema:Brick:Point;1"
     },
@@ -106,41 +131,73 @@
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "is part of"
+      },
+      "name": "isPartOf",
+      "target": "dtmi:digitaltwins:w3id:org:rec:Asset;1"
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "located in"
+      },
       "name": "locatedIn",
       "target": "dtmi:digitaltwins:w3id:org:rec:Space;1"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "maintenance interval"
+      },
       "name": "maintenanceInterval",
       "schema": "duration"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "manufactured by"
+      },
       "name": "manufacturedBy",
       "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "model number"
+      },
       "name": "modelNumber",
       "schema": "string"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "serial number"
+      },
       "name": "serialNumber",
       "schema": "string"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "serviced by"
+      },
       "name": "servicedBy",
       "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "turnover date"
+      },
       "name": "turnoverDate",
       "schema": "date"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "weight"
+      },
       "name": "weight",
       "schema": "string"
     }

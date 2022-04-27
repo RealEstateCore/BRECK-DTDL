@@ -4,6 +4,9 @@
   "contents": [
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "includes"
+      },
       "name": "includes",
       "target": "dtmi:digitaltwins:w3id:org:rec:Room;1"
     }

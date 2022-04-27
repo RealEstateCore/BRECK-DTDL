@@ -4,6 +4,12 @@
   "contents": [
     {
       "@type": "Property",
+      "description": {
+        "en": "URL link to an image/logo that represents the organization."
+      },
+      "displayName": {
+        "en": "logo"
+      },
       "name": "logo",
       "schema": "string"
     }

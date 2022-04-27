@@ -4,11 +4,17 @@
   "contents": [
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "intersecting space"
+      },
       "name": "intersectingSpace",
       "target": "dtmi:digitaltwins:w3id:org:rec:Space;1"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "adjacent space"
+      },
       "name": "adjacentSpace",
       "target": "dtmi:digitaltwins:w3id:org:rec:Space;1"
     },

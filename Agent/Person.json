@@ -4,6 +4,12 @@
   "contents": [
     {
       "@type": "Property",
+      "description": {
+        "en": "URL link to an image that represents the person."
+      },
+      "displayName": {
+        "en": "image"
+      },
       "name": "image",
       "schema": "string"
     },
@@ -14,6 +20,9 @@
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "gender"
+      },
       "name": "gender",
       "schema": "string"
     },

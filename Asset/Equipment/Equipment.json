@@ -4,11 +4,17 @@
   "contents": [
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "Regulates"
+      },
       "name": "regulates",
       "target": "dtmi:digitaltwins:brickschema:org:schema:Brick:Substance;1"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "Operational stage count"
+      },
       "name": "operationalStageCount",
       "schema": "string"
     }

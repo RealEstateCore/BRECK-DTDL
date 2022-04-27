@@ -4,11 +4,17 @@
   "contents": [
     {
       "@type": "Property",
+      "displayName": {
+        "en": "name"
+      },
       "name": "name",
       "schema": "string"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "member of"
+      },
       "name": "memberOf",
       "target": "dtmi:digitaltwins:w3id:org:rec:Organization;1"
     },

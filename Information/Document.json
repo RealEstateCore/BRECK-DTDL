@@ -4,6 +4,9 @@
   "contents": [
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "URL"
+      },
       "name": "url"
     }
   ],

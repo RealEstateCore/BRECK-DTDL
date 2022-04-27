@@ -4,6 +4,9 @@
   "contents": [
     {
       "@type": "Property",
+      "displayName": {
+        "en": "level number"
+      },
       "name": "levelNumber",
       "schema": "integer"
     }

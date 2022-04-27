@@ -4,46 +4,76 @@
   "contents": [
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "subject of"
+      },
       "name": "subjectOf",
       "target": "dtmi:digitaltwins:w3id:org:rec:Document;1"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "person occupancy"
+      },
       "name": "personOccupancy",
       "schema": "integer"
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "person capacity"
+      },
       "name": "personCapacity",
       "schema": "integer"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "owned by"
+      },
       "name": "ownedBy",
       "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "operated by"
+      },
       "name": "operatedBy",
       "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "intersecting element"
+      },
       "name": "intersectingElement",
       "target": "dtmi:digitaltwins:w3id:org:rec:BuildingElement;1"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "documentation"
+      },
       "name": "documentation",
       "target": "dtmi:digitaltwins:w3id:org:rec:Document;1"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "contains space"
+      },
       "name": "containsSpace",
       "target": "dtmi:digitaltwins:w3id:org:rec:Architecture;1"
     },
     {
       "@type": "Relationship",
+      "description": {
+        "en": "Links an Architecture to BuildingElement that is contained in the Space."
+      },
+      "displayName": {
+        "en": "contains element"
+      },
       "name": "containsElement",
       "target": "dtmi:digitaltwins:w3id:org:rec:BuildingElement;1"
     },
@@ -54,21 +84,36 @@
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "architected by"
+      },
       "name": "architectedBy",
       "target": "dtmi:digitaltwins:w3id:org:rec:Agent;1"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "adjacent element"
+      },
       "name": "adjacentElement",
       "target": "dtmi:digitaltwins:w3id:org:rec:BuildingElement;1"
     },
     {
       "@type": "Relationship",
+      "description": {
+        "en": "Physical address of the architecture (site, building, sub-building, entrance room, etc.) in question."
+      },
+      "displayName": {
+        "en": "address"
+      },
       "name": "address",
       "target": "dtmi:digitaltwins:w3id:org:rec:PostalAddress;1"
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "has point"
+      },
       "name": "hasPoint",
       "target": "dtmi:digitaltwins:brickschema:org:schema:Brick:Point;1"
     }
