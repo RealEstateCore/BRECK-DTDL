@@ -3,14 +3,6 @@
   "@type": "Interface",
   "contents": [
     {
-      "@type": "Property",
-      "displayName": {
-        "en": "name"
-      },
-      "name": "name",
-      "schema": "string"
-    },
-    {
       "@type": "Relationship",
       "displayName": {
         "en": "member of"
