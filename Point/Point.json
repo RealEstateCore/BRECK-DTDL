@@ -54,20 +54,6 @@
     },
     {
       "@type": "Property",
-      "name": "hasBACnetReference",
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
-      "name": "hasCSVReference",
-      "schema": "string"
-    },
-    {
-      "@type": "Relationship",
-      "name": "hasExternalReference"
-    },
-    {
-      "@type": "Property",
       "name": "lastKnownValue",
       "dtmi:dtdl:property:schema;2": {
         "@type": "Object",
@@ -78,23 +64,6 @@
           },
           {
             "name": "value",
-            "schema": "string"
-          }
-        ]
-      }
-    },
-    {
-      "@type": "Property",
-      "name": "timeseries",
-      "dtmi:dtdl:property:schema;2": {
-        "@type": "Object",
-        "dtmi:dtdl:property:fields;2": [
-          {
-            "name": "hasTimeseriesId",
-            "schema": "string"
-          },
-          {
-            "name": "storedAt",
             "schema": "string"
           }
         ]
