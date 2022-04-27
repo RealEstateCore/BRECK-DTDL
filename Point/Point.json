@@ -9,48 +9,95 @@
         "@type": "Object",
         "dtmi:dtdl:property:fields;2": [
           {
-            "name": "aggregationInterval",
-            "schema": "string"
-          },
-          {
             "name": "aggregationFunction",
             "dtmi:dtdl:property:schema;2": {
               "@type": "Enum",
               "dtmi:dtdl:property:enumValues;2": [
                 {
-                  "enumValue": "mode",
-                  "name": "mode"
-                },
-                {
-                  "enumValue": "median",
-                  "name": "median"
-                },
-                {
-                  "enumValue": "sum",
-                  "name": "sum"
-                },
-                {
-                  "enumValue": "mean",
-                  "name": "mean"
-                },
-                {
-                  "enumValue": "count",
-                  "name": "count"
+                  "enumValue": "max",
+                  "name": "max"
                 },
                 {
                   "enumValue": "min",
                   "name": "min"
                 },
                 {
-                  "enumValue": "max",
-                  "name": "max"
+                  "enumValue": "count",
+                  "name": "count"
+                },
+                {
+                  "enumValue": "mean",
+                  "name": "mean"
+                },
+                {
+                  "enumValue": "sum",
+                  "name": "sum"
+                },
+                {
+                  "enumValue": "median",
+                  "name": "median"
+                },
+                {
+                  "enumValue": "mode",
+                  "name": "mode"
                 }
               ],
               "valueSchema": "string"
             }
+          },
+          {
+            "name": "aggregationInterval",
+            "schema": "string"
           }
         ]
       }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Custom Tags"
+      },
+      "name": "customTags",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Map",
+        "dtmi:dtdl:property:mapKey;2": {
+          "name": "tagName",
+          "schema": "string"
+        },
+        "dtmi:dtdl:property:mapValue;2": {
+          "name": "tagValue",
+          "schema": "string"
+        }
+      },
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "External IDs"
+      },
+      "name": "externalIds",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Map",
+        "dtmi:dtdl:property:mapKey;2": {
+          "name": "externalIdName",
+          "schema": "string"
+        },
+        "dtmi:dtdl:property:mapValue;2": {
+          "name": "externalIdValue",
+          "schema": "string"
+        }
+      },
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "name"
+      },
+      "name": "name",
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
