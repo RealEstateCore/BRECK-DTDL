@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:High_Temperature_Alarm_Parameter;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:High_Temperature_Alarm_Parameter;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Temperature Alarm Parameter"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Temperature_Parameter;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Temperature_Parameter;1",
   "@context": "dtmi:dtdl:context;2"
 }

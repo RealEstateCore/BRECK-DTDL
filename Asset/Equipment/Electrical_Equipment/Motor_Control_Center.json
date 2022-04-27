@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Motor_Control_Center;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Motor_Control_Center;1",
   "@type": "Interface",
   "displayName": {
     "en": "Motor Control Center"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Electrical_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Electrical_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

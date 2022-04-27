@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Return_Damper;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Return_Damper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Damper"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Damper;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Damper;1",
   "@context": "dtmi:dtdl:context;2"
 }

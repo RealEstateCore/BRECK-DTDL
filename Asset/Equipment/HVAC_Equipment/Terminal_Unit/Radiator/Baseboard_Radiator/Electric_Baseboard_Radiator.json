@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Electric_Baseboard_Radiator;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Electric_Baseboard_Radiator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electric Baseboard Radiator"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Electric_Radiator;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Baseboard_Radiator;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Electric_Radiator;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Baseboard_Radiator;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Overridden_Off_Status;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Overridden_Off_Status;1",
   "@type": "Interface",
   "displayName": {
     "en": "Overridden Off Status"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Overridden_Status;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Off_Status;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Overridden_Status;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Off_Status;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

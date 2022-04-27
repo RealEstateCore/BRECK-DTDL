@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Zone_Air_Cooling_Temperature_Setpoint;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Zone_Air_Cooling_Temperature_Setpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Zone Air Cooling Temperature Setpoint"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Zone_Air_Temperature_Setpoint;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Cooling_Temperature_Setpoint;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Zone_Air_Temperature_Setpoint;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Cooling_Temperature_Setpoint;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

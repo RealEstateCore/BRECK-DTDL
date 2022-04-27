@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Natural_Gas;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Natural_Gas;1",
   "@type": "Interface",
   "displayName": {
     "en": "Natural Gas"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Gas;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Gas;1",
   "@context": "dtmi:dtdl:context;2"
 }

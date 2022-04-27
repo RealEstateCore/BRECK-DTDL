@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Safety_Equipment;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Safety_Equipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Safety Equipment"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Average_Supply_Air_Flow_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Average_Supply_Air_Flow_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Average Supply Air Flow Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Air_Flow_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Supply_Air_Flow_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

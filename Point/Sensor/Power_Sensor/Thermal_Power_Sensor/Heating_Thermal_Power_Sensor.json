@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Heating_Thermal_Power_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Heating_Thermal_Power_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heating Thermal Power Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Thermal_Power_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Thermal_Power_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

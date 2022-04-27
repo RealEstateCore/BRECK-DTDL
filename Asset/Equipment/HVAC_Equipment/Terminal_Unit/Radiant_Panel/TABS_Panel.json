@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:TABS_Panel;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:TABS_Panel;1",
   "@type": "Interface",
   "displayName": {
     "en": "TABS Panel"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Radiant_Panel;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Radiant_Panel;1",
   "@context": "dtmi:dtdl:context;2"
 }

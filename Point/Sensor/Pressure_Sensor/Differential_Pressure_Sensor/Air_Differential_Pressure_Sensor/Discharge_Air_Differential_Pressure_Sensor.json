@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Discharge_Air_Differential_Pressure_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Discharge_Air_Differential_Pressure_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Discharge Air Differential Pressure Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Air_Differential_Pressure_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Air_Differential_Pressure_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

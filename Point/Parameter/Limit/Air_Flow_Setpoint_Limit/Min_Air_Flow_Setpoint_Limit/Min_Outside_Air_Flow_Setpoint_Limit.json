@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Min_Outside_Air_Flow_Setpoint_Limit;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Min_Outside_Air_Flow_Setpoint_Limit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Min Outside Air Flow Setpoint Limit"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Min_Air_Flow_Setpoint_Limit;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Min_Air_Flow_Setpoint_Limit;1",
   "@context": "dtmi:dtdl:context;2"
 }

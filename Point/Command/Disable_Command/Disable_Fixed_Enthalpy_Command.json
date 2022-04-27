@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Disable_Fixed_Enthalpy_Command;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Disable_Fixed_Enthalpy_Command;1",
   "@type": "Interface",
   "displayName": {
     "en": "Disable Fixed Enthalpy Command"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Disable_Command;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Disable_Command;1",
   "@context": "dtmi:dtdl:context;2"
 }

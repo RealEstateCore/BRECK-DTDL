@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Reactive_Power_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Reactive_Power_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Reactive Power Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Electric_Power_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Electric_Power_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:Apartment;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:Apartment;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,12 +8,12 @@
         "en": "includes"
       },
       "name": "includes",
-      "target": "dtmi:digitaltwins:w3id:org:rec:Room;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Room;1"
     }
   ],
   "displayName": {
     "en": "Apartment"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Collection;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Collection;1",
   "@context": "dtmi:dtdl:context;2"
 }

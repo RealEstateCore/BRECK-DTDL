@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Max_Hot_Water_Differential_Pressure_Setpoint_Limit;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Max_Hot_Water_Differential_Pressure_Setpoint_Limit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Max Hot Water Differential Pressure Setpoint Limit"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Max_Limit;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Differential_Pressure_Setpoint_Limit;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Max_Limit;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Differential_Pressure_Setpoint_Limit;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

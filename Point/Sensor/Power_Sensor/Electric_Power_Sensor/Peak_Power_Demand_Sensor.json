@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Peak_Power_Demand_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Peak_Power_Demand_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Peak Power Demand Sensor"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Electric_Power_Sensor;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Demand_Sensor;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Electric_Power_Sensor;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Demand_Sensor;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

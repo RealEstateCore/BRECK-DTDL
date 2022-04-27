@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:StorageCabinet;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:StorageCabinet;1",
   "@type": "Interface",
   "displayName": {
     "en": "Storage cabinet"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Furniture;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Furniture;1",
   "@context": "dtmi:dtdl:context;2"
 }

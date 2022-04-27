@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:MainEntrance;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:MainEntrance;1",
   "@type": "Interface",
   "displayName": {
     "en": "Main entrance"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Entrance;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Entrance;1",
   "@context": "dtmi:dtdl:context;2"
 }

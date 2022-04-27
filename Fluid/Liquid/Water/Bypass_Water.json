@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Bypass_Water;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Bypass_Water;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bypass Water"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Water;1",
   "@context": "dtmi:dtdl:context;2"
 }

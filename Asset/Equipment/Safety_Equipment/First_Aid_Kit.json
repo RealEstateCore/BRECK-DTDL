@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:First_Aid_Kit;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:First_Aid_Kit;1",
   "@type": "Interface",
   "displayName": {
     "en": "First Aid Kit"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Safety_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Safety_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Static_Pressure_Step_Parameter;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Static_Pressure_Step_Parameter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Static Pressure Step Parameter"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Step_Parameter;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Step_Parameter;1",
   "@context": "dtmi:dtdl:context;2"
 }

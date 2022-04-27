@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Centrifugal_Chiller;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Centrifugal_Chiller;1",
   "@type": "Interface",
   "displayName": {
     "en": "Centrifugal Chiller"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Chiller;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Chiller;1",
   "@context": "dtmi:dtdl:context;2"
 }

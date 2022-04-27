@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:Hospital;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:Hospital;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hospital"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Building;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Building;1",
   "@context": "dtmi:dtdl:context;2"
 }

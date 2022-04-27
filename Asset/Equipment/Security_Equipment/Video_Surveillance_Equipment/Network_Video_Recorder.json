@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Network_Video_Recorder;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Network_Video_Recorder;1",
   "@type": "Interface",
   "displayName": {
     "en": "Network Video Recorder"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Video_Surveillance_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Video_Surveillance_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

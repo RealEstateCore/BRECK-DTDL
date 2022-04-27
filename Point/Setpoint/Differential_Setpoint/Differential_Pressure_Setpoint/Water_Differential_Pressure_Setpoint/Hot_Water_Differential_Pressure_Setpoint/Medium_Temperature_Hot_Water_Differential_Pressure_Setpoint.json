@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Medium_Temperature_Hot_Water_Differential_Pressure_Setpoint;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Medium_Temperature_Hot_Water_Differential_Pressure_Setpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Medium Temperature Hot Water Differential Pressure Setpoint"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Hot_Water_Differential_Pressure_Setpoint;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Hot_Water_Differential_Pressure_Setpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

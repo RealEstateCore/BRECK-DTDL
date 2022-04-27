@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Mixed_Damper;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Mixed_Damper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mixed Damper"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Damper;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Damper;1",
   "@context": "dtmi:dtdl:context;2"
 }

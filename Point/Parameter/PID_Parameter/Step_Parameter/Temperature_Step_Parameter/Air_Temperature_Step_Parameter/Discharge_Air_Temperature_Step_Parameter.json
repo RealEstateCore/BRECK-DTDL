@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Discharge_Air_Temperature_Step_Parameter;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Discharge_Air_Temperature_Step_Parameter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Discharge Air Temperature Step Parameter"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Air_Temperature_Step_Parameter;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Air_Temperature_Step_Parameter;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Safety_Shower;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Safety_Shower;1",
   "@type": "Interface",
   "displayName": {
     "en": "Safety Shower"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Emergency_Wash_Station;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Emergency_Wash_Station;1",
   "@context": "dtmi:dtdl:context;2"
 }

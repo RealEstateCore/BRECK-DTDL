@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Cycle_Alarm;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Cycle_Alarm;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cycle Alarm"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Alarm;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Alarm;1",
   "@context": "dtmi:dtdl:context;2"
 }

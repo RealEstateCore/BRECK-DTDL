@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:MobileDesk;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:MobileDesk;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mobile desk"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Desk;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Desk;1",
   "@context": "dtmi:dtdl:context;2"
 }

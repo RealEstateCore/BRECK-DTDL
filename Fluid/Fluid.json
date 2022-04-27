@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Fluid;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Fluid;1",
   "@type": "Interface",
   "contents": [
     {

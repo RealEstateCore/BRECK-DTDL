@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Heat_Detector;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Heat_Detector;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heat Detector"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Fire_Safety_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Fire_Safety_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

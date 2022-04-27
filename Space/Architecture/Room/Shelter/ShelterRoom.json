@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:ShelterRoom;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:ShelterRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Shelter room"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Shelter;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Shelter;1",
   "@context": "dtmi:dtdl:context;2"
 }

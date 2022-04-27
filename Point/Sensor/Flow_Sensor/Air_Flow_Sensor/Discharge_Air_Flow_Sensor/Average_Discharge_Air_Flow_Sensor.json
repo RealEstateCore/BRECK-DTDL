@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Average_Discharge_Air_Flow_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Average_Discharge_Air_Flow_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Average Discharge Air Flow Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Discharge_Air_Flow_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Discharge_Air_Flow_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Adjust_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Adjust_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Adjust Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

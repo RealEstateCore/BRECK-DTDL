@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Direct_Expansion_Cooling_Coil;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Direct_Expansion_Cooling_Coil;1",
   "@type": "Interface",
   "displayName": {
     "en": "Direct Expansion Cooling Coil"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Cooling_Coil;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Cooling_Coil;1",
   "@context": "dtmi:dtdl:context;2"
 }

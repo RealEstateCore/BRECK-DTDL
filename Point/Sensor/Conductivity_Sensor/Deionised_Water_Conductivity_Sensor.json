@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Deionised_Water_Conductivity_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Deionised_Water_Conductivity_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Deionised Water Conductivity Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Conductivity_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Conductivity_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

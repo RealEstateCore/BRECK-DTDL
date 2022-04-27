@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Unoccupied_Heating_Discharge_Air_Flow_Setpoint;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Unoccupied_Heating_Discharge_Air_Flow_Setpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Unoccupied Heating Discharge Air Flow Setpoint"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Unoccupied_Discharge_Air_Flow_Setpoint;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Heating_Discharge_Air_Flow_Setpoint;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Unoccupied_Discharge_Air_Flow_Setpoint;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Heating_Discharge_Air_Flow_Setpoint;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

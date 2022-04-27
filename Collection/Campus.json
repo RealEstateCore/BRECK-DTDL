@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:Campus;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:Campus;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,7 +8,7 @@
         "en": "includes"
       },
       "name": "includes",
-      "target": "dtmi:digitaltwins:w3id:org:rec:Architecture;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Architecture;1"
     }
   ],
   "description": {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Campus"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Collection;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Collection;1",
   "@context": "dtmi:dtdl:context;2"
 }

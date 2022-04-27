@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Velocity_Pressure_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Velocity_Pressure_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Velocity Pressure Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Pressure_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Pressure_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

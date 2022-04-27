@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Stages_Status;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Stages_Status;1",
   "@type": "Interface",
   "displayName": {
     "en": "Stages Status"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Status;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Status;1",
   "@context": "dtmi:dtdl:context;2"
 }

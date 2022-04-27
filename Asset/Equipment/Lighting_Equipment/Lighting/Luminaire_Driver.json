@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Luminaire_Driver;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Luminaire_Driver;1",
   "@type": "Interface",
   "displayName": {
     "en": "Luminaire Driver"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Lighting;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Lighting;1",
   "@context": "dtmi:dtdl:context;2"
 }

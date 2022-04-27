@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:PostalAddress;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:PostalAddress;1",
   "@type": "Interface",
   "contents": [
     {
@@ -57,6 +57,6 @@
   "displayName": {
     "en": "Postal address"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Information;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Information;1",
   "@context": "dtmi:dtdl:context;2"
 }

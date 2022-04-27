@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Water_Flow_Setpoint;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Supply_Water_Flow_Setpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Supply Water Flow Setpoint"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Flow_Setpoint;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Water_Flow_Setpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

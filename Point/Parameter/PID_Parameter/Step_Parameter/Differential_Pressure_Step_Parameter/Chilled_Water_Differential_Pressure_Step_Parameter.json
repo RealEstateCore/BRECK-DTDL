@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Chilled_Water_Differential_Pressure_Step_Parameter;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Chilled_Water_Differential_Pressure_Step_Parameter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Chilled Water Differential Pressure Step Parameter"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Differential_Pressure_Step_Parameter;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Differential_Pressure_Step_Parameter;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Evaporative_Heat_Exchanger;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Evaporative_Heat_Exchanger;1",
   "@type": "Interface",
   "displayName": {
     "en": "Evaporative Heat Exchanger"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Heat_Exchanger;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Heat_Exchanger;1",
   "@context": "dtmi:dtdl:context;2"
 }

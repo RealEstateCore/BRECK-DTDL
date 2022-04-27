@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Shade;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Shade;1",
   "@type": "Interface",
   "displayName": {
     "en": "Shade"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Shading_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Shading_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

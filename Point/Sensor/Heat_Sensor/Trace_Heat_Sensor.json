@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Trace_Heat_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Trace_Heat_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Trace Heat Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Heat_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Heat_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Temperature_Deadband_Setpoint;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Temperature_Deadband_Setpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Temperature Deadband Setpoint"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Temperature_Setpoint;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Deadband_Setpoint;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Temperature_Setpoint;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Deadband_Setpoint;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

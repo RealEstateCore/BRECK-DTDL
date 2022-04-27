@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Communication_Loss_Alarm;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Communication_Loss_Alarm;1",
   "@type": "Interface",
   "displayName": {
     "en": "Communication Loss Alarm"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Alarm;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Alarm;1",
   "@context": "dtmi:dtdl:context;2"
 }

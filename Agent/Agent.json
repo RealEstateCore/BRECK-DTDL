@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:Agent;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:Agent;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,7 +8,7 @@
         "en": "member of"
       },
       "name": "memberOf",
-      "target": "dtmi:digitaltwins:w3id:org:rec:Organization;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Organization;1"
     },
     {
       "@type": "Property",

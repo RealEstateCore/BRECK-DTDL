@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Max_Temperature_Setpoint_Limit;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Max_Temperature_Setpoint_Limit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Max Temperature Setpoint Limit"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Temperature_Parameter;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Max_Limit;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Temperature_Parameter;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Max_Limit;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

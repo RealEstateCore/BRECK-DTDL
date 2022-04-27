@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Relief_Fan;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Relief_Fan;1",
   "@type": "Interface",
   "displayName": {
     "en": "Relief Fan"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Fan;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Fan;1",
   "@context": "dtmi:dtdl:context;2"
 }

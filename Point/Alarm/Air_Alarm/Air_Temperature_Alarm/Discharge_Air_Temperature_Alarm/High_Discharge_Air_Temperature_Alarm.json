@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:High_Discharge_Air_Temperature_Alarm;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:High_Discharge_Air_Temperature_Alarm;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Discharge Air Temperature Alarm"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:High_Temperature_Alarm;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Discharge_Air_Temperature_Alarm;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:High_Temperature_Alarm;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Discharge_Air_Temperature_Alarm;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Ceiling_Fan;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Ceiling_Fan;1",
   "@type": "Interface",
   "displayName": {
     "en": "Ceiling Fan"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Fan;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Fan;1",
   "@context": "dtmi:dtdl:context;2"
 }

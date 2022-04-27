@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Derivative_Time_Parameter;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Derivative_Time_Parameter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Derivative Time Parameter"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Time_Parameter;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Time_Parameter;1",
   "@context": "dtmi:dtdl:context;2"
 }

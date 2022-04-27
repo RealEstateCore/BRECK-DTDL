@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Leaving_Water_Flow_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Leaving_Water_Flow_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Leaving Water Flow Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Flow_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Water_Flow_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

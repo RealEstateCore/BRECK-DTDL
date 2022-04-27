@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Lighting_Equipment;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Lighting_Equipment;1",
   "@type": "Interface",
   "contents": [
     {
@@ -22,6 +22,6 @@
   "displayName": {
     "en": "Lighting Equipment"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:SubBuilding;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:SubBuilding;1",
   "@type": "Interface",
   "displayName": {
     "en": "Sub-building"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Architecture;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Architecture;1",
   "@context": "dtmi:dtdl:context;2"
 }

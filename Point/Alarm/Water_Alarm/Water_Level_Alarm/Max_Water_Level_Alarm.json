@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Max_Water_Level_Alarm;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Max_Water_Level_Alarm;1",
   "@type": "Interface",
   "displayName": {
     "en": "Max Water Level Alarm"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Level_Alarm;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Water_Level_Alarm;1",
   "@context": "dtmi:dtdl:context;2"
 }

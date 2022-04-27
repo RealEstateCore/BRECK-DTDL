@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Return_Air_Plenum;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Return_Air_Plenum;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Air Plenum"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Air_Plenum;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Air_Plenum;1",
   "@context": "dtmi:dtdl:context;2"
 }

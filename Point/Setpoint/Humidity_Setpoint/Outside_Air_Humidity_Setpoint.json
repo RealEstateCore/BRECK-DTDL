@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Outside_Air_Humidity_Setpoint;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Outside_Air_Humidity_Setpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Outside Air Humidity Setpoint"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Humidity_Setpoint;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Humidity_Setpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Active_Chilled_Beam;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Active_Chilled_Beam;1",
   "@type": "Interface",
   "displayName": {
     "en": "Active Chilled Beam"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Chilled_Beam;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Chilled_Beam;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Run_Time_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Run_Time_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Run Time Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Duration_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Duration_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:RoofLevel;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:RoofLevel;1",
   "@type": "Interface",
   "displayName": {
     "en": "Roof level"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Level;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Level;1",
   "@context": "dtmi:dtdl:context;2"
 }

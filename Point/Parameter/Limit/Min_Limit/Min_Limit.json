@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Min_Limit;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Min_Limit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Min Limit"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Limit;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Limit;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:TelecommunicationRoom;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:TelecommunicationRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Telecommunication room"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:CableRoom;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:CableRoom;1",
   "@context": "dtmi:dtdl:context;2"
 }

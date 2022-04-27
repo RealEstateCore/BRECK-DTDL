@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:Department;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:Department;1",
   "@type": "Interface",
   "contents": [
     {
@@ -11,12 +11,12 @@
         "en": "department of"
       },
       "name": "departmentOf",
-      "target": "dtmi:digitaltwins:w3id:org:rec:Organization;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Organization;1"
     }
   ],
   "displayName": {
     "en": "Department"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Organization;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Organization;1",
   "@context": "dtmi:dtdl:context;2"
 }

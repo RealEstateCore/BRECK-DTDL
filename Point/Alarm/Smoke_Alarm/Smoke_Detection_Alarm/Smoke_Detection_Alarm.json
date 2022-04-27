@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Smoke_Detection_Alarm;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Smoke_Detection_Alarm;1",
   "@type": "Interface",
   "displayName": {
     "en": "Smoke Detection Alarm"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Smoke_Alarm;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Smoke_Alarm;1",
   "@context": "dtmi:dtdl:context;2"
 }

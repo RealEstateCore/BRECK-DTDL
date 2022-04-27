@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Building_Electrical_Meter;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Building_Electrical_Meter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Building Electrical Meter"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Electrical_Meter;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Building_Meter;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Electrical_Meter;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Building_Meter;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

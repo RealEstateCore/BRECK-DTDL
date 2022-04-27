@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Sensor_Failure_Alarm;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Sensor_Failure_Alarm;1",
   "@type": "Interface",
   "displayName": {
     "en": "Sensor Failure Alarm"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Failure_Alarm;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Failure_Alarm;1",
   "@context": "dtmi:dtdl:context;2"
 }

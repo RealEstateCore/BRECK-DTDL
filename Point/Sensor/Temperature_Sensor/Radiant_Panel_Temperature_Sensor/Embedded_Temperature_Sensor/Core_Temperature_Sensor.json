@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Core_Temperature_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Core_Temperature_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Core Temperature Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Embedded_Temperature_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Embedded_Temperature_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

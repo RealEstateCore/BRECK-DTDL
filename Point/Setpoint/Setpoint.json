@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Setpoint;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Setpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Setpoint"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Point;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1",
   "@context": "dtmi:dtdl:context;2"
 }

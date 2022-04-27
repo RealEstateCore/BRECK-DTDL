@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Water_Differential_Pressure_Deadband_Setpoint;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Supply_Water_Differential_Pressure_Deadband_Setpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Supply Water Differential Pressure Deadband Setpoint"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Differential_Pressure_Deadband_Setpoint;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Differential_Pressure_Deadband_Setpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

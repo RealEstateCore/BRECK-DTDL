@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Exhaust_Fan_Enable_Command;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Exhaust_Fan_Enable_Command;1",
   "@type": "Interface",
   "displayName": {
     "en": "Exhaust Fan Enable Command"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Enable_Command;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Enable_Command;1",
   "@context": "dtmi:dtdl:context;2"
 }

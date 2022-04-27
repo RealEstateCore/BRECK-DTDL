@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Motor_Torque_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Motor_Torque_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Motor Torque Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Torque_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Torque_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Thermally_Activated_Building_System_Panel;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Thermally_Activated_Building_System_Panel;1",
   "@type": "Interface",
   "displayName": {
     "en": "Thermally Activated Building System Panel"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Radiant_Panel;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Radiant_Panel;1",
   "@context": "dtmi:dtdl:context;2"
 }

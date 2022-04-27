@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Static_Pressure_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Static_Pressure_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Static Pressure Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Pressure_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Pressure_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

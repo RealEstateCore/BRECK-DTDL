@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Chiller;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Chiller;1",
   "@type": "Interface",
   "contents": [
     {
@@ -47,6 +47,6 @@
   "displayName": {
     "en": "Chiller"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:HVAC_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

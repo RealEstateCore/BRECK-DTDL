@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:Workshop;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:Workshop;1",
   "@type": "Interface",
   "displayName": {
     "en": "Workshop"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Room;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Room;1",
   "@context": "dtmi:dtdl:context;2"
 }

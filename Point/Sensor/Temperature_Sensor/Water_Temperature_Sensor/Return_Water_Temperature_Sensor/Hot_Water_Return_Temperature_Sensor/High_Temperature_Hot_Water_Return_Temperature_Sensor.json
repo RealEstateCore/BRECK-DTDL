@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:High_Temperature_Hot_Water_Return_Temperature_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:High_Temperature_Hot_Water_Return_Temperature_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Temperature Hot Water Return Temperature Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Hot_Water_Return_Temperature_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Hot_Water_Return_Temperature_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

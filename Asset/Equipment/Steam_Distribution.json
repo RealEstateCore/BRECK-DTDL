@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Steam_Distribution;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Steam_Distribution;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam Distribution"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

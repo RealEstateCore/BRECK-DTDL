@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Emergency_Power_Off_System_Activated_By_Leak_Detection_System_Status;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Emergency_Power_Off_System_Activated_By_Leak_Detection_System_Status;1",
   "@type": "Interface",
   "displayName": {
     "en": "Emergency Power Off System Activated By Leak Detection System St"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Emergency_Power_Off_System_Status;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Emergency_Power_Off_System_Status;1",
   "@context": "dtmi:dtdl:context;2"
 }

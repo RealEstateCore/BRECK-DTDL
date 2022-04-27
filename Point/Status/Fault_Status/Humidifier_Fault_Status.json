@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Humidifier_Fault_Status;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Humidifier_Fault_Status;1",
   "@type": "Interface",
   "displayName": {
     "en": "Humidifier Fault Status"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Fault_Status;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Fault_Status;1",
   "@context": "dtmi:dtdl:context;2"
 }

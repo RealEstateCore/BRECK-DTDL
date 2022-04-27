@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:TVOC_Level_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:TVOC_Level_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "TVOC Level Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:TVOC_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:TVOC_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

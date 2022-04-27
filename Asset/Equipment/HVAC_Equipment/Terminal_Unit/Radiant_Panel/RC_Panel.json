@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:RC_Panel;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:RC_Panel;1",
   "@type": "Interface",
   "displayName": {
     "en": "RC Panel"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Radiant_Panel;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Radiant_Panel;1",
   "@context": "dtmi:dtdl:context;2"
 }

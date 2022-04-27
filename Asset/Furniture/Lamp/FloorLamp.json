@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:FloorLamp;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:FloorLamp;1",
   "@type": "Interface",
   "displayName": {
     "en": "Floor lamp"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Lamp;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Lamp;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Load_Current_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Load_Current_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Load Current Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Current_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Current_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

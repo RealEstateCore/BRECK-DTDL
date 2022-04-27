@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Interface;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Interface;1",
   "@type": "Interface",
   "displayName": {
     "en": "Interface"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Lighting_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Lighting_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

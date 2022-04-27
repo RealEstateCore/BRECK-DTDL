@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Bypass_Air_Flow_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Bypass_Air_Flow_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bypass Air Flow Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Air_Flow_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Air_Flow_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

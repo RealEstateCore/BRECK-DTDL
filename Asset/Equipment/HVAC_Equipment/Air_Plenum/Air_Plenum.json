@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Air_Plenum;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Air_Plenum;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Plenum"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:HVAC_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

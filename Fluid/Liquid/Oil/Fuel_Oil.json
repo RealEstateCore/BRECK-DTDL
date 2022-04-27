@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Fuel_Oil;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Fuel_Oil;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fuel Oil"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Oil;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Oil;1",
   "@context": "dtmi:dtdl:context;2"
 }

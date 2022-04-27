@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:DishingRoom;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:DishingRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Dishing room"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:FoodHandlingRoom;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:FoodHandlingRoom;1",
   "@context": "dtmi:dtdl:context;2"
 }

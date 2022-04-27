@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Fire_Alarm_Manual_Call_Point;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Fire_Alarm_Manual_Call_Point;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Alarm Manual Call Point"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Manual_Fire_Alarm_Activation_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Manual_Fire_Alarm_Activation_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

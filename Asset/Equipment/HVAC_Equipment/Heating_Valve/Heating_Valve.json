@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Heating_Valve;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Heating_Valve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heating Valve"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:HVAC_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

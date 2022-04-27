@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Drive_Ready_Status;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Drive_Ready_Status;1",
   "@type": "Interface",
   "displayName": {
     "en": "Drive Ready Status"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Status;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Status;1",
   "@context": "dtmi:dtdl:context;2"
 }

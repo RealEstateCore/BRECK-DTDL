@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Frost_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Frost_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Frost Sensor"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Temperature_Sensor;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Sensor;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Temperature_Sensor;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Sensor;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

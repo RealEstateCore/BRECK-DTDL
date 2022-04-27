@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:DeskLamp;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:DeskLamp;1",
   "@type": "Interface",
   "displayName": {
     "en": "Desk lamp"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Lamp;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Lamp;1",
   "@context": "dtmi:dtdl:context;2"
 }

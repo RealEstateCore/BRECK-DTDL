@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Smoke_Detector;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Smoke_Detector;1",
   "@type": "Interface",
   "displayName": {
     "en": "Smoke Detector"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Fire_Safety_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Fire_Safety_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Water_Differential_Pressure_Proportional_Band_Parameter;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Supply_Water_Differential_Pressure_Proportional_Band_Parameter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Supply Water Differential Pressure Proportional Band Parameter"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Differential_Pressure_Proportional_Band;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Differential_Pressure_Proportional_Band;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:Organization;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:Organization;1",
   "@type": "Interface",
   "contents": [
     {
@@ -20,6 +20,6 @@
   "displayName": {
     "en": "Organization"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Agent;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Agent;1",
   "@context": "dtmi:dtdl:context;2"
 }

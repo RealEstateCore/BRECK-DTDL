@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Max_Supply_Air_Temperature_Setpoint_Limit;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Max_Supply_Air_Temperature_Setpoint_Limit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Max Supply Air Temperature Setpoint Limit"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Air_Temperature_Setpoint_Limit;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Max_Temperature_Setpoint_Limit;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Supply_Air_Temperature_Setpoint_Limit;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Max_Temperature_Setpoint_Limit;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

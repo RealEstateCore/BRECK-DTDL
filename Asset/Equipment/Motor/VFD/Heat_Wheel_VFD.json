@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Heat_Wheel_VFD;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Heat_Wheel_VFD;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heat Wheel VFD"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:VFD;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:VFD;1",
   "@context": "dtmi:dtdl:context;2"
 }

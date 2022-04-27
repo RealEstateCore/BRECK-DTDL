@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Reset_Command;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Reset_Command;1",
   "@type": "Interface",
   "displayName": {
     "en": "Reset Command"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Command;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Command;1",
   "@context": "dtmi:dtdl:context;2"
 }

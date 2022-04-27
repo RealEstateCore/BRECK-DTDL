@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Condenser_Water_Bypass_Valve;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Condenser_Water_Bypass_Valve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Condenser Water Bypass Valve"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Bypass_Valve;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Bypass_Valve;1",
   "@context": "dtmi:dtdl:context;2"
 }

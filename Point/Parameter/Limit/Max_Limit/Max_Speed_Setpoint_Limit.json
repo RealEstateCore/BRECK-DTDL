@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Max_Speed_Setpoint_Limit;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Max_Speed_Setpoint_Limit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Max Speed Setpoint Limit"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Speed_Setpoint_Limit;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Max_Limit;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Speed_Setpoint_Limit;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Max_Limit;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

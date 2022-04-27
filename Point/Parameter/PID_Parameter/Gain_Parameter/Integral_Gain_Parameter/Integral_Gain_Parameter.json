@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Integral_Gain_Parameter;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Integral_Gain_Parameter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Integral Gain Parameter"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Gain_Parameter;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Gain_Parameter;1",
   "@context": "dtmi:dtdl:context;2"
 }

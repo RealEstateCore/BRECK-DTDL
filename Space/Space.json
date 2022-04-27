@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:Space;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:Space;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,7 +8,7 @@
         "en": "intersecting space"
       },
       "name": "intersectingSpace",
-      "target": "dtmi:digitaltwins:w3id:org:rec:Space;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1"
     },
     {
       "@type": "Relationship",
@@ -16,7 +16,7 @@
         "en": "adjacent space"
       },
       "name": "adjacentSpace",
-      "target": "dtmi:digitaltwins:w3id:org:rec:Space;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1"
     },
     {
       "@type": "Property",

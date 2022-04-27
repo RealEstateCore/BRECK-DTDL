@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Filter_Differential_Pressure_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Filter_Differential_Pressure_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Filter Differential Pressure Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Differential_Pressure_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Differential_Pressure_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

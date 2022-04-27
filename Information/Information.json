@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:Information;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:Information;1",
   "@type": "Interface",
   "contents": [
     {

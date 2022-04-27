@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Low_Discharge_Air_Flow_Alarm;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Low_Discharge_Air_Flow_Alarm;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Discharge Air Flow Alarm"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Low_Air_Flow_Alarm;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Low_Air_Flow_Alarm;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Chilled_Water_Valve;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Chilled_Water_Valve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Chilled Water Valve"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Valve;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Valve;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Water_Valve;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:HVAC_Valve;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

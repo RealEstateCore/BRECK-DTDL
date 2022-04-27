@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:OfficeRoom;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:OfficeRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "OfficeRoom"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Office;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Office;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Condenser_Heat_Exchanger;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Condenser_Heat_Exchanger;1",
   "@type": "Interface",
   "displayName": {
     "en": "Condenser Heat Exchanger"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Heat_Exchanger;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Heat_Exchanger;1",
   "@context": "dtmi:dtdl:context;2"
 }

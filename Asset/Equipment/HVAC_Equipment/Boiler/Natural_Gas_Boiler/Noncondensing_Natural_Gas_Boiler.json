@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Noncondensing_Natural_Gas_Boiler;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Noncondensing_Natural_Gas_Boiler;1",
   "@type": "Interface",
   "displayName": {
     "en": "Noncondensing Natural Gas Boiler"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Natural_Gas_Boiler;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Natural_Gas_Boiler;1",
   "@context": "dtmi:dtdl:context;2"
 }

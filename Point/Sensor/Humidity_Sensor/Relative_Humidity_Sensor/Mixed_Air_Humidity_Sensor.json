@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Mixed_Air_Humidity_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Mixed_Air_Humidity_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mixed Air Humidity Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Relative_Humidity_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Relative_Humidity_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

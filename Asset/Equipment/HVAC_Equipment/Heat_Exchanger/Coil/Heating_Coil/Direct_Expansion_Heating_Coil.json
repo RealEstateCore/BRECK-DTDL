@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Direct_Expansion_Heating_Coil;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Direct_Expansion_Heating_Coil;1",
   "@type": "Interface",
   "displayName": {
     "en": "Direct Expansion Heating Coil"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Heating_Coil;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Heating_Coil;1",
   "@context": "dtmi:dtdl:context;2"
 }

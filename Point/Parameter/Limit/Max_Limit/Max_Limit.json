@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Max_Limit;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Max_Limit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Max Limit"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Limit;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Limit;1",
   "@context": "dtmi:dtdl:context;2"
 }

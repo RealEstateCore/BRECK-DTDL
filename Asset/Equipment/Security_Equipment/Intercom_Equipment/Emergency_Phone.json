@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Emergency_Phone;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Emergency_Phone;1",
   "@type": "Interface",
   "displayName": {
     "en": "Emergency Phone"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Intercom_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Intercom_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

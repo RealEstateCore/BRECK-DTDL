@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:w3id:org:rec:MailRoom;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:MailRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mail room"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:BackOffice;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:BackOffice;1",
   "@context": "dtmi:dtdl:context;2"
 }

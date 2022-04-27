@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Boiler;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Boiler;1",
   "@type": "Interface",
   "displayName": {
     "en": "Boiler"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Heater;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Equipment;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Water_Heater;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:HVAC_Equipment;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

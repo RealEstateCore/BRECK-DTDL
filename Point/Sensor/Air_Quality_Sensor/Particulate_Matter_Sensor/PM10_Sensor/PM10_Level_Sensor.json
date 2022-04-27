@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:PM10_Level_Sensor;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:PM10_Level_Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "PM10 Level Sensor"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:PM10_Sensor;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:PM10_Sensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

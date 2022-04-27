@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Equipment;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Equipment;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,7 +8,7 @@
         "en": "Regulates"
       },
       "name": "regulates",
-      "target": "dtmi:digitaltwins:brickschema:org:schema:Brick:Substance;1"
+      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Substance;1"
     },
     {
       "@type": "Property",
@@ -22,6 +22,6 @@
   "displayName": {
     "en": "Equipment"
   },
-  "extends": "dtmi:digitaltwins:w3id:org:rec:Asset;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Asset;1",
   "@context": "dtmi:dtdl:context;2"
 }

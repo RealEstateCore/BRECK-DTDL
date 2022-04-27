@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Pre_Filter;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Pre_Filter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pre Filter"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Filter;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Filter;1",
   "@context": "dtmi:dtdl:context;2"
 }

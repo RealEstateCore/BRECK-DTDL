@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Box_Mode_Command;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Box_Mode_Command;1",
   "@type": "Interface",
   "displayName": {
     "en": "Box Mode Command"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Mode_Command;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Mode_Command;1",
   "@context": "dtmi:dtdl:context;2"
 }

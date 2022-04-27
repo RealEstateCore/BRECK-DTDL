@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Chilled_Water_Meter;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Chilled_Water_Meter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Chilled Water Meter"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Water_Meter;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Water_Meter;1",
   "@context": "dtmi:dtdl:context;2"
 }

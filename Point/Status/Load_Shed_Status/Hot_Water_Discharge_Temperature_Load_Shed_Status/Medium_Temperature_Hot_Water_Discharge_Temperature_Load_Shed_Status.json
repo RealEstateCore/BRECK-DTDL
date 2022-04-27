@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Medium_Temperature_Hot_Water_Discharge_Temperature_Load_Shed_Status;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Medium_Temperature_Hot_Water_Discharge_Temperature_Load_Shed_Status;1",
   "@type": "Interface",
   "displayName": {
     "en": "Medium Temperature Hot Water Discharge Temperature Load Shed Sta"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Hot_Water_Discharge_Temperature_Load_Shed_Status;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Hot_Water_Discharge_Temperature_Load_Shed_Status;1",
   "@context": "dtmi:dtdl:context;2"
 }

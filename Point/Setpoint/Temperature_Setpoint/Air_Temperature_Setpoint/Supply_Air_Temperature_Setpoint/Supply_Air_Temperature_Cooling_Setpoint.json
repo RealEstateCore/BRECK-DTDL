@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Air_Temperature_Cooling_Setpoint;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Supply_Air_Temperature_Cooling_Setpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Supply Air Temperature Cooling Setpoint"
   },
   "extends": [
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Supply_Air_Temperature_Setpoint;1",
-    "dtmi:digitaltwins:brickschema:org:schema:Brick:Cooling_Temperature_Setpoint;1"
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Supply_Air_Temperature_Setpoint;1",
+    "dtmi:digitaltwins:org:brickschema:schema:Brick:Cooling_Temperature_Setpoint;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

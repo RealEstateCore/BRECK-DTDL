@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Cooling_Valve;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Cooling_Valve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cooling Valve"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:HVAC_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:HVAC_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Low_Voltage_Alarm;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Low_Voltage_Alarm;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Voltage Alarm"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Voltage_Alarm;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Voltage_Alarm;1",
   "@context": "dtmi:dtdl:context;2"
 }

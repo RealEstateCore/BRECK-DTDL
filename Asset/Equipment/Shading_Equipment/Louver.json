@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:brickschema:org:schema:Brick:Louver;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Louver;1",
   "@type": "Interface",
   "displayName": {
     "en": "Louver"
   },
-  "extends": "dtmi:digitaltwins:brickschema:org:schema:Brick:Shading_Equipment;1",
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Shading_Equipment;1",
   "@context": "dtmi:dtdl:context;2"
 }
