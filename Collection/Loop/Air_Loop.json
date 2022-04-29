@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Air_Loop;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Air Loop"
+  },
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Loop;1",
+  "@context": "dtmi:dtdl:context;2"
+}

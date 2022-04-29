@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Steam_System;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Steam System"
+  },
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Heating_Ventilation_Air_Conditioning_System;1",
+  "@context": "dtmi:dtdl:context;2"
+}

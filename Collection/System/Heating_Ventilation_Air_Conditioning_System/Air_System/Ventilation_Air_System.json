@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Ventilation_Air_System;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Ventilation Air System"
+  },
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Air_System;1",
+  "@context": "dtmi:dtdl:context;2"
+}

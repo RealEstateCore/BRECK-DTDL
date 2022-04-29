@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Solid;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Measurable;1",
   "@type": "Interface",
   "contents": [
     {
@@ -51,7 +51,7 @@
     }
   ],
   "displayName": {
-    "en": "Solid"
+    "en": "Measurable"
   },
   "@context": "dtmi:dtdl:context;2"
 }

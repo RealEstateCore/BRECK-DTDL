@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Quantity;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Quantity"
+  },
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Measurable;1",
+  "@context": "dtmi:dtdl:context;2"
+}

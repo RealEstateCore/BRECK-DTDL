@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Domestic_Water_Loop;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Domestic Water Loop"
+  },
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Water_Loop;1",
+  "@context": "dtmi:dtdl:context;2"
+}

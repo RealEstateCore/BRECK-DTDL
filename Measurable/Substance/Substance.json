@@ -1,0 +1,19 @@
+{
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Substance;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "Is regulated by"
+      },
+      "name": "isRegulatedBy",
+      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Equipment;1"
+    }
+  ],
+  "displayName": {
+    "en": "Substance"
+  },
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Measurable;1",
+  "@context": "dtmi:dtdl:context;2"
+}

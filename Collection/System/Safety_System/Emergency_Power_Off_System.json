@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Emergency_Power_Off_System;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Emergency Power Off System"
+  },
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Safety_System;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,19 @@
+{
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:PV_Array;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Has part"
+      },
+      "name": "hasPart",
+      "schema": "string"
+    }
+  ],
+  "displayName": {
+    "en": "PV Array"
+  },
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Collection;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Emergency_Air_Flow_System;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Emergency Air Flow System"
+  },
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Safety_System;1",
+  "@context": "dtmi:dtdl:context;2"
+}

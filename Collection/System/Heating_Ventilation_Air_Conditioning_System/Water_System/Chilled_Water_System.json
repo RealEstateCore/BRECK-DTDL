@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Chilled_Water_System;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Chilled Water System"
+  },
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Water_System;1",
+  "@context": "dtmi:dtdl:context;2"
+}

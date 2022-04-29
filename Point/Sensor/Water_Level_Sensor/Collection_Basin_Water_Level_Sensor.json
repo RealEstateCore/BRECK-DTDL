@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Collection_Basin_Water_Level_Sensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Collection Basin Water Level Sensor"
+  },
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Water_Level_Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Heat_Recovery_Hot_Water_System;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Heat Recovery Hot Water System"
+  },
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Hot_Water_System;1",
+  "@context": "dtmi:dtdl:context;2"
+}
