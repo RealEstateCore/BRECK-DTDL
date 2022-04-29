@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Leaving_Water;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Leaving Water"
-  },
-  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Water;1",
-  "@context": "dtmi:dtdl:context;2"
-}

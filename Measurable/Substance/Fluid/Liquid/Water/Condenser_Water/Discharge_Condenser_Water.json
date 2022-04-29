@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Discharge_Condenser_Water;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Discharge Condenser Water"
-  },
-  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Condenser_Water;1",
-  "@context": "dtmi:dtdl:context;2"
-}

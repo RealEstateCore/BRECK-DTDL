@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Frost;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Frost"
-  },
-  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Solid;1",
-  "@context": "dtmi:dtdl:context;2"
-}

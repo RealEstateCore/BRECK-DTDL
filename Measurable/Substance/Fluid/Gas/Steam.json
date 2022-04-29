@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Steam;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Steam"
-  },
-  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Gas;1",
-  "@context": "dtmi:dtdl:context;2"
-}

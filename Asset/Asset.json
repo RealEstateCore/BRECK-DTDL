@@ -3,6 +3,78 @@
   "@type": "Interface",
   "contents": [
     {
+      "@type": "Property",
+      "displayName": {
+        "en": "weight"
+      },
+      "name": "weight",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "turnover date"
+      },
+      "name": "turnoverDate",
+      "schema": "date"
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "serviced by"
+      },
+      "name": "servicedBy",
+      "target": "dtmi:digitaltwins:org:w3id:rec:Agent;1"
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "serial number"
+      },
+      "name": "serialNumber",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "model number"
+      },
+      "name": "modelNumber",
+      "schema": "string"
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "manufactured by"
+      },
+      "name": "manufacturedBy",
+      "target": "dtmi:digitaltwins:org:w3id:rec:Agent;1"
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "maintenance interval"
+      },
+      "name": "maintenanceInterval",
+      "schema": "duration"
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "located in"
+      },
+      "name": "locatedIn",
+      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1"
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "is part of"
+      },
+      "name": "isPartOf",
+      "target": "dtmi:digitaltwins:org:w3id:rec:Asset;1"
+    },
+    {
       "@type": "Relationship",
       "displayName": {
         "en": "installed by"
@@ -128,78 +200,6 @@
       "name": "name",
       "schema": "string",
       "writable": true
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "is part of"
-      },
-      "name": "isPartOf",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Asset;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "located in"
-      },
-      "name": "locatedIn",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1"
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "maintenance interval"
-      },
-      "name": "maintenanceInterval",
-      "schema": "duration"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "manufactured by"
-      },
-      "name": "manufacturedBy",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Agent;1"
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "model number"
-      },
-      "name": "modelNumber",
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "serial number"
-      },
-      "name": "serialNumber",
-      "schema": "string"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "serviced by"
-      },
-      "name": "servicedBy",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Agent;1"
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "turnover date"
-      },
-      "name": "turnoverDate",
-      "schema": "date"
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "weight"
-      },
-      "name": "weight",
-      "schema": "string"
     }
   ],
   "description": {

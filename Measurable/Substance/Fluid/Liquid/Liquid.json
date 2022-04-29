@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Liquid;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Liquid"
-  },
-  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Fluid;1",
-  "@context": "dtmi:dtdl:context;2"
-}

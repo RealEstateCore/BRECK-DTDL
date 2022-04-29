@@ -5,6 +5,26 @@
     {
       "@type": "Property",
       "displayName": {
+        "en": "Last known value"
+      },
+      "name": "lastKnownValue",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Object",
+        "dtmi:dtdl:property:fields;2": [
+          {
+            "name": "value",
+            "schema": "string"
+          },
+          {
+            "name": "timestamp",
+            "schema": "dateTime"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
         "en": "Aggregate"
       },
       "name": "aggregate",
@@ -12,45 +32,45 @@
         "@type": "Object",
         "dtmi:dtdl:property:fields;2": [
           {
+            "name": "aggregationInterval",
+            "schema": "string"
+          },
+          {
             "name": "aggregationFunction",
             "dtmi:dtdl:property:schema;2": {
               "@type": "Enum",
               "dtmi:dtdl:property:enumValues;2": [
                 {
-                  "enumValue": "max",
-                  "name": "max"
-                },
-                {
-                  "enumValue": "min",
-                  "name": "min"
-                },
-                {
-                  "enumValue": "count",
-                  "name": "count"
-                },
-                {
-                  "enumValue": "mean",
-                  "name": "mean"
-                },
-                {
-                  "enumValue": "sum",
-                  "name": "sum"
+                  "enumValue": "mode",
+                  "name": "mode"
                 },
                 {
                   "enumValue": "median",
                   "name": "median"
                 },
                 {
-                  "enumValue": "mode",
-                  "name": "mode"
+                  "enumValue": "sum",
+                  "name": "sum"
+                },
+                {
+                  "enumValue": "mean",
+                  "name": "mean"
+                },
+                {
+                  "enumValue": "count",
+                  "name": "count"
+                },
+                {
+                  "enumValue": "min",
+                  "name": "min"
+                },
+                {
+                  "enumValue": "max",
+                  "name": "max"
                 }
               ],
               "valueSchema": "string"
             }
-          },
-          {
-            "name": "aggregationInterval",
-            "schema": "string"
           }
         ]
       }
@@ -101,26 +121,6 @@
       "name": "name",
       "schema": "string",
       "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "Last known value"
-      },
-      "name": "lastKnownValue",
-      "dtmi:dtdl:property:schema;2": {
-        "@type": "Object",
-        "dtmi:dtdl:property:fields;2": [
-          {
-            "name": "timestamp",
-            "schema": "dateTime"
-          },
-          {
-            "name": "value",
-            "schema": "string"
-          }
-        ]
-      }
     }
   ],
   "displayName": {

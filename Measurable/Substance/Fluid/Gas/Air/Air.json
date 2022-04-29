@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Air;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Air"
-  },
-  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Gas;1",
-  "@context": "dtmi:dtdl:context;2"
-}
