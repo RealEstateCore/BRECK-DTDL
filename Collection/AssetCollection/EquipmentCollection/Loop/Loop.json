@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:System;1",
+  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Loop;1",
   "@type": "Interface",
   "contents": [
     {
@@ -12,8 +12,8 @@
     }
   ],
   "displayName": {
-    "en": "System"
+    "en": "Loop"
   },
-  "extends": "dtmi:digitaltwins:org:w3id:rec:Collection;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:EquipmentCollection;1",
   "@context": "dtmi:dtdl:context;2"
 }

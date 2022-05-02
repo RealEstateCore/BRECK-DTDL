@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Campus"
   },
-  "extends": "dtmi:digitaltwins:org:w3id:rec:Collection;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:SpaceCollection;1",
   "@context": "dtmi:dtdl:context;2"
 }

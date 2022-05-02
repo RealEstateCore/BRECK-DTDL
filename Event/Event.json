@@ -1,7 +1,29 @@
 {
-  "@id": "dtmi:digitaltwins:org:w3id:rec:BuildingElement;1",
+  "@id": "dtmi:digitaltwins:org:w3id:rec:Event;1",
   "@type": "Interface",
   "contents": [
+    {
+      "@type": "Property",
+      "description": {
+        "en": "Event start timestamp."
+      },
+      "displayName": {
+        "en": "start"
+      },
+      "name": "start",
+      "schema": "dateTime"
+    },
+    {
+      "@type": "Property",
+      "description": {
+        "en": "Event ending timestamp."
+      },
+      "displayName": {
+        "en": "end"
+      },
+      "name": "end",
+      "schema": "dateTime"
+    },
     {
       "@type": "Property",
       "displayName": {
@@ -51,10 +73,10 @@
     }
   ],
   "description": {
-    "en": "A part that constitutes a piece of a building's structural makeup. E.g., Facade, Wall, Slab, Roof, etc."
+    "en": "A temporally indexed entity, e.g., an observation, a lease, a construction project, etc. Can be instantaneous (starting and ending times coalesce) or have temporal extent (starting and ending time diverge). Subclasses may define specific behaviour and requirements, e.g., on spatial indexing, agent participation, etc."
   },
   "displayName": {
-    "en": "Building element"
+    "en": "Event"
   },
   "@context": "dtmi:dtdl:context;2"
 }
