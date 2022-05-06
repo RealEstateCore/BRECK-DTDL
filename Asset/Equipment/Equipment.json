@@ -12,10 +12,6 @@
         "@type": "Enum",
         "dtmi:dtdl:property:enumValues;2": [
           {
-            "enumValue": "Liquid",
-            "name": "Liquid"
-          },
-          {
             "enumValue": "Gas",
             "name": "Gas"
           },
@@ -26,6 +22,10 @@
           {
             "enumValue": "Fluid",
             "name": "Fluid"
+          },
+          {
+            "enumValue": "Liquid",
+            "name": "Liquid"
           },
           {
             "enumValue": "Air",
@@ -222,6 +222,13 @@
       },
       "name": "operationalStageCount",
       "schema": "string"
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "feeds"
+      },
+      "name": "feeds"
     }
   ],
   "displayName": {

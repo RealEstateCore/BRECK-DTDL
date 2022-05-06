@@ -1,16 +1,6 @@
 {
   "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:HVAC_Equipment;1",
   "@type": "Interface",
-  "contents": [
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "Feeds"
-      },
-      "name": "feeds",
-      "schema": "string"
-    }
-  ],
   "displayName": {
     "en": "HVAC Equipment"
   },
