@@ -53,18 +53,10 @@
     {
       "@type": "Relationship",
       "displayName": {
-        "en": "documentation"
+        "en": "has document"
       },
-      "name": "documentation",
+      "name": "hasDocument",
       "target": "dtmi:digitaltwins:org:w3id:rec:Document;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "contains space"
-      },
-      "name": "containsSpace",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Architecture;1"
     },
     {
       "@type": "Relationship",
@@ -108,14 +100,6 @@
       },
       "name": "address",
       "target": "dtmi:digitaltwins:org:w3id:rec:PostalAddress;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "has point"
-      },
-      "name": "hasPoint",
-      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1"
     }
   ],
   "description": {

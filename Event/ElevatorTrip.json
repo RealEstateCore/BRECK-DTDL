@@ -1,0 +1,56 @@
+{
+  "@id": "dtmi:digitaltwins:org:w3id:rec:ElevatorTrip;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "trip direction"
+      },
+      "name": "tripDirection",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Enum",
+        "dtmi:dtdl:property:enumValues;2": [
+          {
+            "enumValue": "Down",
+            "name": "Down"
+          },
+          {
+            "enumValue": "Up",
+            "name": "Up"
+          }
+        ],
+        "valueSchema": "string"
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "start level"
+      },
+      "name": "startLevel",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "end level"
+      },
+      "name": "endLevel",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "current level"
+      },
+      "name": "currentLevel",
+      "schema": "string"
+    }
+  ],
+  "displayName": {
+    "en": "Elevator trip"
+  },
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Event;1",
+  "@context": "dtmi:dtdl:context;2"
+}

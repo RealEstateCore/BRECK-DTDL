@@ -99,6 +99,33 @@
       "schema": "string"
     },
     {
+      "@type": "Relationship",
+      "description": {
+        "en": "An asset can act as host to a logical device that communicates with a digital twin platform."
+      },
+      "displayName": {
+        "en": "hosts"
+      },
+      "name": "hosts",
+      "target": "dtmi:digitaltwins:org:w3id:rec:LogicalDevice;1"
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "has part"
+      },
+      "name": "hasPart",
+      "target": "dtmi:digitaltwins:org:w3id:rec:Asset;1"
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "has document"
+      },
+      "name": "hasDocument",
+      "target": "dtmi:digitaltwins:org:w3id:rec:Document;1"
+    },
+    {
       "@type": "Property",
       "description": {
         "en": "A GeoJSON Polygon coordinate listing representing the geometrical representation of the asset. Coordinates may be expressed in two or three dimensions. Ex: [[30.0, 10.0, 0.0], [40.0, 40.0, 2.0], [20.0, 40.0, 2.0], [10.0, 20.0, 2.0], [30.0, 10.0, 0.0]]."
@@ -108,14 +135,6 @@
       },
       "name": "geometry",
       "schema": "string"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "documentation"
-      },
-      "name": "documentation",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Document;1"
     },
     {
       "@type": "Relationship",

@@ -1,0 +1,19 @@
+{
+  "@id": "dtmi:digitaltwins:org:w3id:rec:FurnitureCollection;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "includes"
+      },
+      "name": "includes",
+      "target": "dtmi:digitaltwins:org:w3id:rec:Furniture;1"
+    }
+  ],
+  "displayName": {
+    "en": "Furniture collection"
+  },
+  "extends": "dtmi:digitaltwins:org:w3id:rec:AssetCollection;1",
+  "@context": "dtmi:dtdl:context;2"
+}

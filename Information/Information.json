@@ -3,6 +3,14 @@
   "@type": "Interface",
   "contents": [
     {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "included in"
+      },
+      "name": "includedIn",
+      "target": "dtmi:digitaltwins:org:w3id:rec:Collection;1"
+    },
+    {
       "@type": "Property",
       "displayName": {
         "en": "Custom Tags"

@@ -23,6 +23,13 @@
       }
     },
     {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "Is point of"
+      },
+      "name": "isPointOf"
+    },
+    {
       "@type": "Property",
       "displayName": {
         "en": "Aggregate"

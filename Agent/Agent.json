@@ -4,10 +4,13 @@
   "contents": [
     {
       "@type": "Relationship",
-      "displayName": {
-        "en": "member of"
+      "description": {
+        "en": "Indicates membership in an organization. Note that componency (e.g., departments of a corporation) are expressed using the more generic Organization.isPartOf property."
       },
-      "name": "memberOf",
+      "displayName": {
+        "en": "is member of"
+      },
+      "name": "isMemberOf",
       "target": "dtmi:digitaltwins:org:w3id:rec:Organization;1"
     },
     {

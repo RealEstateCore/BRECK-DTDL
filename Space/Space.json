@@ -5,9 +5,17 @@
     {
       "@type": "Relationship",
       "displayName": {
-        "en": "intersecting space"
+        "en": "is part of"
       },
-      "name": "intersectingSpace",
+      "name": "isPartOf",
+      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1"
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "has part"
+      },
+      "name": "hasPart",
       "target": "dtmi:digitaltwins:org:w3id:rec:Space;1"
     },
     {
@@ -24,10 +32,10 @@
     {
       "@type": "Relationship",
       "displayName": {
-        "en": "adjacent space"
+        "en": "has point"
       },
-      "name": "adjacentSpace",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1"
+      "name": "hasPoint",
+      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1"
     },
     {
       "@type": "Property",

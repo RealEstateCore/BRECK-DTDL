@@ -5,14 +5,6 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Has part"
-      },
-      "name": "hasPart",
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
-      "displayName": {
         "en": "Feeds"
       },
       "name": "feeds",

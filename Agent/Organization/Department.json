@@ -1,19 +1,6 @@
 {
   "@id": "dtmi:digitaltwins:org:w3id:rec:Department;1",
   "@type": "Interface",
-  "contents": [
-    {
-      "@type": "Relationship",
-      "description": {
-        "en": "Indicates a parent organization that this department belongs to."
-      },
-      "displayName": {
-        "en": "department of"
-      },
-      "name": "departmentOf",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Organization;1"
-    }
-  ],
   "displayName": {
     "en": "Department"
   },

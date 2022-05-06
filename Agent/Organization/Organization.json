@@ -12,6 +12,39 @@
       },
       "name": "logo",
       "schema": "string"
+    },
+    {
+      "@type": "Relationship",
+      "description": {
+        "en": "Indicates parthood relations in organizations (e.g., departments of a corporation). Note that membership in an organization is expressed using the Agent.isMemberOf property."
+      },
+      "displayName": {
+        "en": "is part of"
+      },
+      "name": "isPartOf",
+      "target": "dtmi:digitaltwins:org:w3id:rec:Organization;1"
+    },
+    {
+      "@type": "Relationship",
+      "description": {
+        "en": "Indicates parthood relations in organizations (e.g., departments of a corporation). Note that membership in an organization is expressed using the more specific hasMember property."
+      },
+      "displayName": {
+        "en": "has part"
+      },
+      "name": "hasPart",
+      "target": "dtmi:digitaltwins:org:w3id:rec:Organization;1"
+    },
+    {
+      "@type": "Relationship",
+      "description": {
+        "en": "Indicates membership in an organization. Note that componency (e.g., departments of a corporation) are expressed using the more generic hasPart property."
+      },
+      "displayName": {
+        "en": "has member"
+      },
+      "name": "hasMember",
+      "target": "dtmi:digitaltwins:org:w3id:rec:Agent;1"
     }
   ],
   "description": {
