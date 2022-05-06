@@ -1,16 +1,6 @@
 {
   "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Radiant_Panel_Temperature_Sensor;1",
   "@type": "Interface",
-  "contents": [
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "Is point of"
-      },
-      "name": "isPointOf",
-      "schema": "string"
-    }
-  ],
   "displayName": {
     "en": "Radiant Panel Temperature Sensor"
   },
