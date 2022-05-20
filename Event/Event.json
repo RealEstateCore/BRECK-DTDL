@@ -4,6 +4,14 @@
   "contents": [
     {
       "@type": "Property",
+      "displayName": {
+        "en": "timestamp"
+      },
+      "name": "timestamp",
+      "schema": "dateTime"
+    },
+    {
+      "@type": "Property",
       "description": {
         "en": "Event start timestamp."
       },
@@ -73,7 +81,7 @@
     }
   ],
   "description": {
-    "en": "A temporally indexed entity, e.g., an observation, a lease, a construction project, etc. Can be instantaneous (starting and ending times coalesce) or have temporal extent (starting and ending time diverge). Subclasses may define specific behaviour and requirements, e.g., on spatial indexing, agent participation, etc."
+    "en": "A temporally indexed entity, e.g., an observation, a lease, a construction project, etc. Can be instantaneous (timestamp property assigned) or have temporal extent (start and end properties assigned). Subclasses may define specific behaviour and requirements, e.g., on spatial indexing, agent participation, etc."
   },
   "displayName": {
     "en": "Event"

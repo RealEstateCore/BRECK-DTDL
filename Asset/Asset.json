@@ -100,17 +100,6 @@
     },
     {
       "@type": "Relationship",
-      "description": {
-        "en": "An asset can act as host to a logical device that communicates with a digital twin platform."
-      },
-      "displayName": {
-        "en": "hosts"
-      },
-      "name": "hosts",
-      "target": "dtmi:digitaltwins:org:w3id:rec:LogicalDevice;1"
-    },
-    {
-      "@type": "Relationship",
       "displayName": {
         "en": "has part"
       },

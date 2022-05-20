@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:org:w3id:rec:LogicalController;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Logical controller"
-  },
-  "extends": "dtmi:digitaltwins:org:w3id:rec:LogicalDevice;1",
-  "@context": "dtmi:dtdl:context;2"
-}
