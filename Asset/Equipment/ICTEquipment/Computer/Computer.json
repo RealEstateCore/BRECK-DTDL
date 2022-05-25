@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:w3id:rec:Computer;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Computer"
+  },
+  "extends": "dtmi:digitaltwins:org:w3id:rec:ICTEquipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:w3id:rec:DataNetworkEquipment;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Data network equipment"
+  },
+  "extends": "dtmi:digitaltwins:org:w3id:rec:ICTEquipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

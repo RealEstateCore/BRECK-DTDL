@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:w3id:rec:ITRack;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "IT Rack"
+  },
+  "extends": "dtmi:digitaltwins:org:w3id:rec:ICTEquipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:w3id:rec:AudioVisualEquipment;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Audio visual equipment"
+  },
+  "extends": "dtmi:digitaltwins:org:w3id:rec:ICTEquipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

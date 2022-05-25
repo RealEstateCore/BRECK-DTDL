@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:w3id:rec:BACnetController;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "BACnet controller"
+  },
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Controller;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:w3id:rec:ICTEquipment;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "ICT Equipment"
+  },
+  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

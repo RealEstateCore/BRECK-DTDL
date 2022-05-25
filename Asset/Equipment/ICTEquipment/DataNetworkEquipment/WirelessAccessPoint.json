@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:w3id:rec:WirelessAccessPoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Wireless access point"
+  },
+  "extends": "dtmi:digitaltwins:org:w3id:rec:DataNetworkEquipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

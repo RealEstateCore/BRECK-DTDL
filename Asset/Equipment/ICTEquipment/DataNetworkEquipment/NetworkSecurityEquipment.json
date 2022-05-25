@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:org:w3id:rec:NetworkSecurityEquipment;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Network security equipment"
+  },
+  "extends": "dtmi:digitaltwins:org:w3id:rec:DataNetworkEquipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}
