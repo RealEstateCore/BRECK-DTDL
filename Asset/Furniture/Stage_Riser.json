@@ -4,6 +4,6 @@
   "displayName": {
     "en": "Stage Riser"
   },
-  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Furniture;1",
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Furniture;1",
   "@context": "dtmi:dtdl:context;2"
 }
