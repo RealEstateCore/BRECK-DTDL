@@ -1,0 +1,18 @@
+{
+  "@id": "dtmi:digitaltwins:org:w3id:rec:PointOfInterest;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "object of interest"
+      },
+      "name": "objectOfInterest"
+    }
+  ],
+  "displayName": {
+    "en": "Point of Interest"
+  },
+  "extends": "dtmi:digitaltwins:org:w3id:rec:Information;1",
+  "@context": "dtmi:dtdl:context;2"
+}
