@@ -9,6 +9,21 @@
       },
       "name": "includes",
       "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Equipment;1"
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "has point"
+      },
+      "name": "hasPoint",
+      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1"
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
+        "en": "feeds"
+      },
+      "name": "feeds"
     }
   ],
   "displayName": {
