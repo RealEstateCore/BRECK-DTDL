@@ -13,7 +13,7 @@
     {
       "@type": "Relationship",
       "displayName": {
-        "en": "Indicates the parent for which this meter is a submeter"
+        "en": "is sub-meter of"
       },
       "name": "isSubMeterOf",
       "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Meter;1"
@@ -21,7 +21,7 @@
     {
       "@type": "Relationship",
       "displayName": {
-        "en": "Indicates a submeter of this meter"
+        "en": "has sub-meter"
       },
       "name": "hasSubMeter",
       "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Meter;1"
@@ -29,7 +29,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Indicates the entity whose consumption/production of some substa"
+        "en": "meters"
       },
       "name": "meters",
       "schema": "string"
@@ -37,7 +37,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Indicates the meter measuring the consumption/production of some"
+        "en": "is metered by"
       },
       "name": "isMeteredBy",
       "schema": "string"
