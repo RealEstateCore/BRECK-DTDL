@@ -13,6 +13,13 @@
     {
       "@type": "Relationship",
       "displayName": {
+        "en": "is fed by"
+      },
+      "name": "isFedBy"
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
         "en": "feeds"
       },
       "name": "feeds"

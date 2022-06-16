@@ -13,6 +13,13 @@
     {
       "@type": "Relationship",
       "displayName": {
+        "en": "is location of"
+      },
+      "name": "isLocationOf"
+    },
+    {
+      "@type": "Relationship",
+      "displayName": {
         "en": "has part"
       },
       "name": "hasPart",
