@@ -8,7 +8,8 @@
         "en": "includes"
       },
       "name": "includes",
-      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Equipment;1"
+      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Equipment;1",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -16,14 +17,16 @@
         "en": "has point"
       },
       "name": "hasPoint",
-      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1"
+      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1",
+      "writable": true
     },
     {
       "@type": "Relationship",
       "displayName": {
         "en": "feeds"
       },
-      "name": "feeds"
+      "name": "feeds",
+      "writable": true
     }
   ],
   "displayName": {

@@ -8,7 +8,8 @@
         "en": "timestamp"
       },
       "name": "timestamp",
-      "schema": "dateTime"
+      "schema": "dateTime",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -19,7 +20,8 @@
         "en": "start"
       },
       "name": "start",
-      "schema": "dateTime"
+      "schema": "dateTime",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -30,7 +32,8 @@
         "en": "end"
       },
       "name": "end",
-      "schema": "dateTime"
+      "schema": "dateTime",
+      "writable": true
     },
     {
       "@type": "Property",

@@ -27,7 +27,8 @@
             "schema": "string"
           }
         ]
-      }
+      },
+      "writable": true
     },
     {
       "@type": "Property",
@@ -54,7 +55,8 @@
             }
           }
         ]
-      }
+      },
+      "writable": true
     }
   ],
   "displayName": {

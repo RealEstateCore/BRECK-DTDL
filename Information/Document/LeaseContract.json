@@ -11,7 +11,8 @@
         "en": "regulates"
       },
       "name": "regulates",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Lease;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Lease;1",
+      "writable": true
     }
   ],
   "description": {

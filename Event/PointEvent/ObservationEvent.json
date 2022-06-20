@@ -11,7 +11,8 @@
         "en": "source point"
       },
       "name": "sourcePoint",
-      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1"
+      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1",
+      "writable": true
     }
   ],
   "displayName": {

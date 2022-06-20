@@ -8,7 +8,8 @@
         "en": "Has part"
       },
       "name": "hasPart",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     }
   ],
   "displayName": {

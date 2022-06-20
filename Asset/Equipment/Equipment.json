@@ -8,21 +8,24 @@
         "en": "Operational stage count"
       },
       "name": "operationalStageCount",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Relationship",
       "displayName": {
         "en": "is fed by"
       },
-      "name": "isFedBy"
+      "name": "isFedBy",
+      "writable": true
     },
     {
       "@type": "Relationship",
       "displayName": {
         "en": "feeds"
       },
-      "name": "feeds"
+      "name": "feeds",
+      "writable": true
     }
   ],
   "displayName": {

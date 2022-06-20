@@ -11,7 +11,8 @@
         "en": "is member of"
       },
       "name": "isMemberOf",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Organization;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Organization;1",
+      "writable": true
     },
     {
       "@type": "Property",

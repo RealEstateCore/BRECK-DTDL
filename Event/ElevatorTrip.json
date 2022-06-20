@@ -21,7 +21,8 @@
           }
         ],
         "valueSchema": "string"
-      }
+      },
+      "writable": true
     },
     {
       "@type": "Property",
@@ -29,7 +30,8 @@
         "en": "start level"
       },
       "name": "startLevel",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -37,7 +39,8 @@
         "en": "end level"
       },
       "name": "endLevel",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -45,7 +48,8 @@
         "en": "current level"
       },
       "name": "currentLevel",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     }
   ],
   "displayName": {

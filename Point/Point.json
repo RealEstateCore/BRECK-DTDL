@@ -393,7 +393,8 @@
           }
         ],
         "valueSchema": "string"
-      }
+      },
+      "writable": true
     },
     {
       "@type": "Property",
@@ -653,7 +654,8 @@
           }
         ],
         "valueSchema": "string"
-      }
+      },
+      "writable": true
     },
     {
       "@type": "Property",
@@ -706,14 +708,16 @@
             "schema": "string"
           }
         ]
-      }
+      },
+      "writable": true
     },
     {
       "@type": "Relationship",
       "displayName": {
         "en": "Is point of"
       },
-      "name": "isPointOf"
+      "name": "isPointOf",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -733,7 +737,8 @@
             "schema": "string"
           }
         ]
-      }
+      },
+      "writable": true
     }
   ],
   "displayName": {

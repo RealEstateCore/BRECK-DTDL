@@ -8,7 +8,8 @@
         "en": "weight"
       },
       "name": "weight",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -16,7 +17,8 @@
         "en": "turnover date"
       },
       "name": "turnoverDate",
-      "schema": "date"
+      "schema": "date",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -24,7 +26,8 @@
         "en": "serviced by"
       },
       "name": "servicedBy",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Agent;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Agent;1",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -32,7 +35,8 @@
         "en": "serial number"
       },
       "name": "serialNumber",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -40,7 +44,8 @@
         "en": "model number"
       },
       "name": "modelNumber",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -48,7 +53,8 @@
         "en": "manufactured by"
       },
       "name": "manufacturedBy",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Agent;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Agent;1",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -56,7 +62,8 @@
         "en": "maintenance interval"
       },
       "name": "maintenanceInterval",
-      "schema": "duration"
+      "schema": "duration",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -64,7 +71,8 @@
         "en": "located in"
       },
       "name": "locatedIn",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -72,7 +80,8 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Asset;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Asset;1",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -80,7 +89,8 @@
         "en": "installed by"
       },
       "name": "installedBy",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Agent;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Agent;1",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -88,7 +98,8 @@
         "en": "installation date"
       },
       "name": "installationDate",
-      "schema": "date"
+      "schema": "date",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -96,7 +107,8 @@
         "en": "initial cost"
       },
       "name": "initialCost",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -104,7 +116,8 @@
         "en": "has part"
       },
       "name": "hasPart",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Asset;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Asset;1",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -112,7 +125,8 @@
         "en": "has document"
       },
       "name": "hasDocument",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Document;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Document;1",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -123,7 +137,8 @@
         "en": "geometry"
       },
       "name": "geometry",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -131,7 +146,8 @@
         "en": "commissioned by"
       },
       "name": "commissionedBy",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Agent;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Agent;1",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -139,7 +155,8 @@
         "en": "commission date"
       },
       "name": "commissionDate",
-      "schema": "date"
+      "schema": "date",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -147,7 +164,8 @@
         "en": "asset tag"
       },
       "name": "assetTag",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -155,7 +173,8 @@
         "en": "MAC address"
       },
       "name": "MACAddress",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -163,7 +182,8 @@
         "en": "IP address"
       },
       "name": "IPAddress",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -171,7 +191,8 @@
         "en": "has point"
       },
       "name": "hasPoint",
-      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1"
+      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1",
+      "writable": true
     },
     {
       "@type": "Property",

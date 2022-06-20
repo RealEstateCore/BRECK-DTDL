@@ -11,12 +11,14 @@
         "en": "image"
       },
       "name": "image",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
       "name": "givenName",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -24,12 +26,14 @@
         "en": "gender"
       },
       "name": "gender",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
       "name": "familyName",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     }
   ],
   "description": {

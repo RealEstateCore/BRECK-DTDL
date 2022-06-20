@@ -7,7 +7,8 @@
       "displayName": {
         "en": "object of interest"
       },
-      "name": "objectOfInterest"
+      "name": "objectOfInterest",
+      "writable": true
     }
   ],
   "displayName": {

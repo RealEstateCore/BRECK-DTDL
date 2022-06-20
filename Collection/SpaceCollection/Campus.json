@@ -8,7 +8,8 @@
         "en": "includes"
       },
       "name": "includes",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Architecture;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Architecture;1",
+      "writable": true
     }
   ],
   "description": {

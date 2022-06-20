@@ -11,7 +11,8 @@
         "en": "payload"
       },
       "name": "payload",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     }
   ],
   "description": {

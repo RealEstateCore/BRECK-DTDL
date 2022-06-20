@@ -8,7 +8,8 @@
         "en": "is virtual meter"
       },
       "name": "isVirtualMeter",
-      "schema": "boolean"
+      "schema": "boolean",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -16,7 +17,8 @@
         "en": "is sub-meter of"
       },
       "name": "isSubMeterOf",
-      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Meter;1"
+      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Meter;1",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -24,7 +26,8 @@
         "en": "has sub-meter"
       },
       "name": "hasSubMeter",
-      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Meter;1"
+      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Meter;1",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -32,7 +35,8 @@
         "en": "meters"
       },
       "name": "meters",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -40,7 +44,8 @@
         "en": "is metered by"
       },
       "name": "isMeteredBy",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     }
   ],
   "displayName": {

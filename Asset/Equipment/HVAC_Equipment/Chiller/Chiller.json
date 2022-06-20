@@ -41,7 +41,8 @@
             "schema": "string"
           }
         ]
-      }
+      },
+      "writable": true
     }
   ],
   "displayName": {

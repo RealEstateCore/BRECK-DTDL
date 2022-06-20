@@ -8,7 +8,8 @@
         "en": "region"
       },
       "name": "region",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -16,7 +17,8 @@
         "en": "postal code"
       },
       "name": "postalCode",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -27,7 +29,8 @@
         "en": "country"
       },
       "name": "country",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -35,7 +38,8 @@
         "en": "city"
       },
       "name": "city",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -43,7 +47,8 @@
         "en": "address line 2"
       },
       "name": "addressLine2",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -51,7 +56,8 @@
         "en": "address line 1"
       },
       "name": "addressLine1",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     }
   ],
   "displayName": {

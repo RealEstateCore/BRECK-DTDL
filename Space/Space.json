@@ -8,14 +8,16 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1",
+      "writable": true
     },
     {
       "@type": "Relationship",
       "displayName": {
         "en": "is location of"
       },
-      "name": "isLocationOf"
+      "name": "isLocationOf",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -23,7 +25,8 @@
         "en": "has part"
       },
       "name": "hasPart",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -34,7 +37,8 @@
         "en": "geometry"
       },
       "name": "geometry",
-      "schema": "string"
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -42,7 +46,8 @@
         "en": "has point"
       },
       "name": "hasPoint",
-      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1"
+      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1",
+      "writable": true
     },
     {
       "@type": "Property",

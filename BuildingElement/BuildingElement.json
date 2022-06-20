@@ -11,7 +11,8 @@
         "en": "located in"
       },
       "name": "locatedIn",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Architecture;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Architecture;1",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -19,7 +20,8 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:digitaltwins:org:w3id:rec:BuildingElement;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:BuildingElement;1",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -27,7 +29,8 @@
         "en": "included in"
       },
       "name": "includedIn",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Collection;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Collection;1",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -35,7 +38,8 @@
         "en": "has part"
       },
       "name": "hasPart",
-      "target": "dtmi:digitaltwins:org:w3id:rec:BuildingElement;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:BuildingElement;1",
+      "writable": true
     },
     {
       "@type": "Relationship",
@@ -43,7 +47,8 @@
         "en": "has document"
       },
       "name": "hasDocument",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Document;1"
+      "target": "dtmi:digitaltwins:org:w3id:rec:Document;1",
+      "writable": true
     },
     {
       "@type": "Property",
