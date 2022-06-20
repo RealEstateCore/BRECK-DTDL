@@ -55,36 +55,6 @@
       "writable": true
     },
     {
-      "@type": "Property",
-      "displayName": {
-        "en": "service type"
-      },
-      "name": "serviceType",
-      "dtmi:dtdl:property:schema;3": {
-        "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;3": [
-          {
-            "enumValue": "Notification",
-            "name": "Notification"
-          },
-          {
-            "enumValue": "Alarm",
-            "name": "Alarm"
-          },
-          {
-            "enumValue": "ErrorReport",
-            "name": "ErrorReport"
-          },
-          {
-            "enumValue": "WorkOrder",
-            "name": "WorkOrder"
-          }
-        ],
-        "valueSchema": "string"
-      },
-      "writable": true
-    },
-    {
       "@type": "Relationship",
       "displayName": {
         "en": "related to"
