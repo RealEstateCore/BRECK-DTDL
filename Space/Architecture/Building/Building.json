@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:w3id:rec:Building;1",
+  "@id": "dtmi:org:w3id:rec:Building",
   "@type": "Interface",
   "description": {
     "en": "A confined building structure."
@@ -7,6 +7,9 @@
   "displayName": {
     "en": "Building"
   },
-  "extends": "dtmi:digitaltwins:org:w3id:rec:Architecture;1",
-  "@context": "dtmi:dtdl:context;2"
+  "extends": "dtmi:org:w3id:rec:Architecture",
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

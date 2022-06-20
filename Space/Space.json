@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:w3id:rec:Space;1",
+  "@id": "dtmi:org:w3id:rec:Space",
   "@type": "Interface",
   "contents": [
     {
@@ -8,7 +8,7 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1",
+      "target": "dtmi:org:w3id:rec:Space",
       "writable": true
     },
     {
@@ -25,7 +25,7 @@
         "en": "has part"
       },
       "name": "hasPart",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Space;1",
+      "target": "dtmi:org:w3id:rec:Space",
       "writable": true
     },
     {
@@ -46,7 +46,7 @@
         "en": "has point"
       },
       "name": "hasPoint",
-      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1",
+      "target": "dtmi:org:brickschema:schema:Brick:Point",
       "writable": true
     },
     {
@@ -55,13 +55,13 @@
         "en": "Custom Tags"
       },
       "name": "customTags",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "dtmi:dtdl:property:mapKey;3": {
           "name": "tagName",
           "schema": "string"
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "dtmi:dtdl:property:mapValue;3": {
           "name": "tagValue",
           "schema": "string"
         }
@@ -74,13 +74,13 @@
         "en": "External IDs"
       },
       "name": "externalIds",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "dtmi:dtdl:property:mapKey;3": {
           "name": "externalIdName",
           "schema": "string"
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "dtmi:dtdl:property:mapValue;3": {
           "name": "externalIdValue",
           "schema": "string"
         }
@@ -103,5 +103,8 @@
   "displayName": {
     "en": "Space"
   },
-  "@context": "dtmi:dtdl:context;2"
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

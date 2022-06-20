@@ -1,12 +1,41 @@
 {
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:System_Shutdown_Status;1",
+  "@id": "dtmi:org:brickschema:schema:Brick:System_Shutdown_Status",
   "@type": "Interface",
+  "contents": [
+    {
+      "@type": [
+        "Initialized",
+        "Property"
+      ],
+      "description": {
+        "en": "Brick tags associated with this interface."
+      },
+      "displayName": {
+        "en": "Tags"
+      },
+      "initialValue": [
+        "System",
+        "Status",
+        "Shutdown",
+        "Point"
+      ],
+      "name": "tags",
+      "dtmi:dtdl:property:schema;3": {
+        "@type": "Array",
+        "elementSchema": "string"
+      },
+      "writable": false
+    }
+  ],
   "displayName": {
     "en": "System Shutdown Status"
   },
   "extends": [
-    "dtmi:digitaltwins:org:brickschema:schema:Brick:System_Status;1",
-    "dtmi:digitaltwins:org:brickschema:schema:Brick:Status;1"
+    "dtmi:org:brickschema:schema:Brick:System_Status",
+    "dtmi:org:brickschema:schema:Brick:Status"
   ],
-  "@context": "dtmi:dtdl:context;2"
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

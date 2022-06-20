@@ -1,9 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:org:w3id:rec:Toilet;1",
+  "@id": "dtmi:org:w3id:rec:Toilet",
   "@type": "Interface",
   "displayName": {
     "en": "Toilet"
   },
-  "extends": "dtmi:digitaltwins:org:w3id:rec:PersonalHygiene;1",
-  "@context": "dtmi:dtdl:context;2"
+  "extends": "dtmi:org:w3id:rec:PersonalHygiene",
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

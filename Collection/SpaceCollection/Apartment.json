@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:w3id:rec:Apartment;1",
+  "@id": "dtmi:org:w3id:rec:Apartment",
   "@type": "Interface",
   "contents": [
     {
@@ -8,13 +8,16 @@
         "en": "includes"
       },
       "name": "includes",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Room;1",
+      "target": "dtmi:org:w3id:rec:Room",
       "writable": true
     }
   ],
   "displayName": {
     "en": "Apartment"
   },
-  "extends": "dtmi:digitaltwins:org:w3id:rec:SpaceCollection;1",
-  "@context": "dtmi:dtdl:context;2"
+  "extends": "dtmi:org:w3id:rec:SpaceCollection",
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

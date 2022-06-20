@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Equipment;1",
+  "@id": "dtmi:org:brickschema:schema:Brick:Equipment",
   "@type": "Interface",
   "contents": [
     {
@@ -31,6 +31,9 @@
   "displayName": {
     "en": "Equipment"
   },
-  "extends": "dtmi:digitaltwins:org:w3id:rec:Asset;1",
-  "@context": "dtmi:dtdl:context;2"
+  "extends": "dtmi:org:w3id:rec:Asset",
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

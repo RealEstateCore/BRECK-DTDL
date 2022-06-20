@@ -1,9 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:org:w3id:rec:ShoppingMall;1",
+  "@id": "dtmi:org:w3id:rec:ShoppingMall",
   "@type": "Interface",
   "displayName": {
     "en": "Shopping mall"
   },
-  "extends": "dtmi:digitaltwins:org:w3id:rec:Building;1",
-  "@context": "dtmi:dtdl:context;2"
+  "extends": "dtmi:org:w3id:rec:Building",
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

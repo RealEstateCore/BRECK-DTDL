@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:w3id:rec:Level;1",
+  "@id": "dtmi:org:w3id:rec:Level",
   "@type": "Interface",
   "contents": [
     {
@@ -18,6 +18,9 @@
   "displayName": {
     "en": "Level"
   },
-  "extends": "dtmi:digitaltwins:org:w3id:rec:Architecture;1",
-  "@context": "dtmi:dtdl:context;2"
+  "extends": "dtmi:org:w3id:rec:Architecture",
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

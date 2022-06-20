@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:w3id:rec:Person;1",
+  "@id": "dtmi:org:w3id:rec:Person",
   "@type": "Interface",
   "contents": [
     {
@@ -42,6 +42,9 @@
   "displayName": {
     "en": "Person"
   },
-  "extends": "dtmi:digitaltwins:org:w3id:rec:Agent;1",
-  "@context": "dtmi:dtdl:context;2"
+  "extends": "dtmi:org:w3id:rec:Agent",
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

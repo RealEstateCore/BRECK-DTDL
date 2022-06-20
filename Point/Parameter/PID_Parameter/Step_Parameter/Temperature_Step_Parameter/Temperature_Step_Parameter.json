@@ -1,12 +1,15 @@
 {
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Temperature_Step_Parameter;1",
+  "@id": "dtmi:org:brickschema:schema:Brick:Temperature_Step_Parameter",
   "@type": "Interface",
   "displayName": {
     "en": "Temperature Step Parameter"
   },
   "extends": [
-    "dtmi:digitaltwins:org:brickschema:schema:Brick:Temperature_Parameter;1",
-    "dtmi:digitaltwins:org:brickschema:schema:Brick:Step_Parameter;1"
+    "dtmi:org:brickschema:schema:Brick:Temperature_Parameter",
+    "dtmi:org:brickschema:schema:Brick:Step_Parameter"
   ],
-  "@context": "dtmi:dtdl:context;2"
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

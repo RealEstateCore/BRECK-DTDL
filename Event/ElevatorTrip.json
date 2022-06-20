@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:w3id:rec:ElevatorTrip;1",
+  "@id": "dtmi:org:w3id:rec:ElevatorTrip",
   "@type": "Interface",
   "contents": [
     {
@@ -8,9 +8,9 @@
         "en": "trip direction"
       },
       "name": "tripDirection",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "dtmi:dtdl:property:enumValues;3": [
           {
             "enumValue": "Down",
             "name": "Down"
@@ -55,6 +55,9 @@
   "displayName": {
     "en": "Elevator trip"
   },
-  "extends": "dtmi:digitaltwins:org:w3id:rec:Event;1",
-  "@context": "dtmi:dtdl:context;2"
+  "extends": "dtmi:org:w3id:rec:Event",
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

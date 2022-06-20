@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:w3id:rec:PointEvent;1",
+  "@id": "dtmi:org:w3id:rec:PointEvent",
   "@type": "Interface",
   "contents": [
     {
@@ -21,6 +21,9 @@
   "displayName": {
     "en": "Point event"
   },
-  "extends": "dtmi:digitaltwins:org:w3id:rec:Event;1",
-  "@context": "dtmi:dtdl:context;2"
+  "extends": "dtmi:org:w3id:rec:Event",
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

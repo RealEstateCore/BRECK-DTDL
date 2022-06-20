@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:w3id:rec:Agent;1",
+  "@id": "dtmi:org:w3id:rec:Agent",
   "@type": "Interface",
   "contents": [
     {
@@ -11,7 +11,7 @@
         "en": "is member of"
       },
       "name": "isMemberOf",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Organization;1",
+      "target": "dtmi:org:w3id:rec:Organization",
       "writable": true
     },
     {
@@ -20,13 +20,13 @@
         "en": "Custom Tags"
       },
       "name": "customTags",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "dtmi:dtdl:property:mapKey;3": {
           "name": "tagName",
           "schema": "string"
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "dtmi:dtdl:property:mapValue;3": {
           "name": "tagValue",
           "schema": "string"
         }
@@ -39,13 +39,13 @@
         "en": "External IDs"
       },
       "name": "externalIds",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "dtmi:dtdl:property:mapKey;3": {
           "name": "externalIdName",
           "schema": "string"
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "dtmi:dtdl:property:mapValue;3": {
           "name": "externalIdValue",
           "schema": "string"
         }
@@ -68,5 +68,8 @@
   "displayName": {
     "en": "Agent"
   },
-  "@context": "dtmi:dtdl:context;2"
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

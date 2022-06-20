@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Chiller;1",
+  "@id": "dtmi:org:brickschema:schema:Brick:Chiller",
   "@type": "Interface",
   "contents": [
     {
@@ -8,21 +8,21 @@
         "en": "Cooling capacity"
       },
       "name": "coolingCapacity",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Object",
-        "dtmi:dtdl:property:fields;2": [
+        "dtmi:dtdl:property:fields;3": [
           {
             "name": "hasUnit",
-            "dtmi:dtdl:property:schema;2": {
+            "dtmi:dtdl:property:schema;3": {
               "@type": "Enum",
-              "dtmi:dtdl:property:enumValues;2": [
-                {
-                  "enumValue": "TON_FG",
-                  "name": "TON_FG"
-                },
+              "dtmi:dtdl:property:enumValues;3": [
                 {
                   "enumValue": "BTU_IT_PER_HR",
                   "name": "BTU_IT_PER_HR"
+                },
+                {
+                  "enumValue": "TON_FG",
+                  "name": "TON_FG"
                 },
                 {
                   "enumValue": "BTU_TH_PER_HR",
@@ -48,6 +48,9 @@
   "displayName": {
     "en": "Chiller"
   },
-  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:HVAC_Equipment;1",
-  "@context": "dtmi:dtdl:context;2"
+  "extends": "dtmi:org:brickschema:schema:Brick:HVAC_Equipment",
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

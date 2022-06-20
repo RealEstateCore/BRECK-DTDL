@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1",
+  "@id": "dtmi:org:brickschema:schema:Brick:Point",
   "@type": "Interface",
   "contents": [
     {
@@ -8,9 +8,9 @@
         "en": "has quantity"
       },
       "name": "hasQuantity",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "dtmi:dtdl:property:enumValues;3": [
           {
             "enumValue": "Absolute_Humidity",
             "name": "Absolute_Humidity"
@@ -402,13 +402,13 @@
         "en": "Custom Tags"
       },
       "name": "customTags",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "dtmi:dtdl:property:mapKey;3": {
           "name": "tagName",
           "schema": "string"
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "dtmi:dtdl:property:mapValue;3": {
           "name": "tagValue",
           "schema": "string"
         }
@@ -421,13 +421,13 @@
         "en": "External IDs"
       },
       "name": "externalIds",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "dtmi:dtdl:property:mapKey;3": {
           "name": "externalIdName",
           "schema": "string"
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "dtmi:dtdl:property:mapValue;3": {
           "name": "externalIdValue",
           "schema": "string"
         }
@@ -449,9 +449,9 @@
         "en": "has substance"
       },
       "name": "hasSubstance",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "dtmi:dtdl:property:enumValues;3": [
           {
             "enumValue": "Fluid",
             "name": "Fluid"
@@ -663,14 +663,14 @@
         "en": "Aggregate"
       },
       "name": "aggregate",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Object",
-        "dtmi:dtdl:property:fields;2": [
+        "dtmi:dtdl:property:fields;3": [
           {
             "name": "aggregationFunction",
-            "dtmi:dtdl:property:schema;2": {
+            "dtmi:dtdl:property:schema;3": {
               "@type": "Enum",
-              "dtmi:dtdl:property:enumValues;2": [
+              "dtmi:dtdl:property:enumValues;3": [
                 {
                   "enumValue": "max",
                   "name": "max"
@@ -725,9 +725,9 @@
         "en": "Last known value"
       },
       "name": "lastKnownValue",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Object",
-        "dtmi:dtdl:property:fields;2": [
+        "dtmi:dtdl:property:fields;3": [
           {
             "name": "timestamp",
             "schema": "dateTime"
@@ -744,5 +744,8 @@
   "displayName": {
     "en": "Point"
   },
-  "@context": "dtmi:dtdl:context;2"
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

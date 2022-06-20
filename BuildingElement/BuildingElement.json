@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:w3id:rec:BuildingElement;1",
+  "@id": "dtmi:org:w3id:rec:BuildingElement",
   "@type": "Interface",
   "contents": [
     {
@@ -11,7 +11,7 @@
         "en": "located in"
       },
       "name": "locatedIn",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Architecture;1",
+      "target": "dtmi:org:w3id:rec:Architecture",
       "writable": true
     },
     {
@@ -20,7 +20,7 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:digitaltwins:org:w3id:rec:BuildingElement;1",
+      "target": "dtmi:org:w3id:rec:BuildingElement",
       "writable": true
     },
     {
@@ -29,7 +29,7 @@
         "en": "included in"
       },
       "name": "includedIn",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Collection;1",
+      "target": "dtmi:org:w3id:rec:Collection",
       "writable": true
     },
     {
@@ -38,7 +38,7 @@
         "en": "has part"
       },
       "name": "hasPart",
-      "target": "dtmi:digitaltwins:org:w3id:rec:BuildingElement;1",
+      "target": "dtmi:org:w3id:rec:BuildingElement",
       "writable": true
     },
     {
@@ -47,7 +47,7 @@
         "en": "has document"
       },
       "name": "hasDocument",
-      "target": "dtmi:digitaltwins:org:w3id:rec:Document;1",
+      "target": "dtmi:org:w3id:rec:Document",
       "writable": true
     },
     {
@@ -56,13 +56,13 @@
         "en": "Custom Tags"
       },
       "name": "customTags",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "dtmi:dtdl:property:mapKey;3": {
           "name": "tagName",
           "schema": "string"
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "dtmi:dtdl:property:mapValue;3": {
           "name": "tagValue",
           "schema": "string"
         }
@@ -75,13 +75,13 @@
         "en": "External IDs"
       },
       "name": "externalIds",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "dtmi:dtdl:property:mapKey;3": {
           "name": "externalIdName",
           "schema": "string"
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "dtmi:dtdl:property:mapValue;3": {
           "name": "externalIdValue",
           "schema": "string"
         }
@@ -104,5 +104,8 @@
   "displayName": {
     "en": "Building element"
   },
-  "@context": "dtmi:dtdl:context;2"
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }

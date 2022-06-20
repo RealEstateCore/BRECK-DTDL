@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:org:brickschema:schema:Brick:PV_Panel;1",
+  "@id": "dtmi:org:brickschema:schema:Brick:PV_Panel",
   "@type": "Interface",
   "contents": [
     {
@@ -8,14 +8,14 @@
         "en": "Rated module conversion efficiency"
       },
       "name": "ratedModuleConversionEfficiency",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Object",
-        "dtmi:dtdl:property:fields;2": [
+        "dtmi:dtdl:property:fields;3": [
           {
             "name": "hasUnit",
-            "dtmi:dtdl:property:schema;2": {
+            "dtmi:dtdl:property:schema;3": {
               "@type": "Enum",
-              "dtmi:dtdl:property:enumValues;2": {
+              "dtmi:dtdl:property:enumValues;3": {
                 "enumValue": "PERCENT",
                 "name": "PERCENT"
               },
@@ -36,18 +36,18 @@
         "en": "Measured module conversion efficiency"
       },
       "name": "measuredModuleConversionEfficiency",
-      "dtmi:dtdl:property:schema;2": {
+      "dtmi:dtdl:property:schema;3": {
         "@type": "Object",
-        "dtmi:dtdl:property:fields;2": [
+        "dtmi:dtdl:property:fields;3": [
           {
             "name": "value",
             "schema": "string"
           },
           {
             "name": "hasUnit",
-            "dtmi:dtdl:property:schema;2": {
+            "dtmi:dtdl:property:schema;3": {
               "@type": "Enum",
-              "dtmi:dtdl:property:enumValues;2": {
+              "dtmi:dtdl:property:enumValues;3": {
                 "enumValue": "PERCENT",
                 "name": "PERCENT"
               },
@@ -62,6 +62,9 @@
   "displayName": {
     "en": "PV Panel"
   },
-  "extends": "dtmi:digitaltwins:org:brickschema:schema:Brick:Equipment;1",
-  "@context": "dtmi:dtdl:context;2"
+  "extends": "dtmi:org:brickschema:schema:Brick:Equipment",
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:initialization;1"
+  ]
 }
