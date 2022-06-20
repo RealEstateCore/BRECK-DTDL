@@ -1,6 +1,19 @@
 {
   "@id": "dtmi:digitaltwins:org:w3id:rec:ExceptionEvent;1",
   "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "description": {
+        "en": "The brick:Point that emitted this exception."
+      },
+      "displayName": {
+        "en": "source point"
+      },
+      "name": "sourcePoint",
+      "target": "dtmi:digitaltwins:org:brickschema:schema:Brick:Point;1"
+    }
+  ],
   "displayName": {
     "en": "Exception event"
   },
